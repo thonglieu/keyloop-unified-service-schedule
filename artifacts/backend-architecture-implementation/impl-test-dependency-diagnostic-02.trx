@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="6c8dde81-4b9d-4603-8d59-28d5e48c60d9" name="X1@THONG-LIEU 2026-10-27 21:09:37" runUser="THONG-LIEU\CodexSandboxOffline" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-27T21:09:37.8875584+07:00" queuing="2026-10-27T21:09:37.8875588+07:00" start="2026-10-27T21:09:33.3086939+07:00" finish="2026-10-27T21:09:37.8967247+07:00" />
+  <TestSettings name="default" id="25fc73b4-452d-44de-bc47-1049cac7fa39">
+    <Deployment runDeploymentRoot="X1_THONG-LIEU_2026-10-27_21_09_37" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="32c65179-b5c6-4cc9-9809-6ceea464f10b" testId="bbbdbb19-ec2e-8df8-2d5d-9ccd7fe9eef1" testName="Scheduler.IntegrationTests.EnvironmentTests.API01_Real_connection_failure_is_classified_as_unavailable_through_provider_wrappers" computerName="THONG-LIEU" duration="00:00:02.5344254" startTime="2026-10-27T21:09:37.7028403+07:00" endTime="2026-10-27T21:09:37.7028818+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="32c65179-b5c6-4cc9-9809-6ceea464f10b">
+      <Output>
+        <ErrorInfo>
+          <Message>Observed provider exception chain: System.InvalidOperationException -&gt; Npgsql.NpgsqlException -&gt; System.TimeoutException</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.EnvironmentTests.API01_Real_connection_failure_is_classified_as_unavailable_through_provider_wrappers() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\EnvironmentTests.cs:line 32&#xD;
+   at Scheduler.IntegrationTests.EnvironmentTests.API01_Real_connection_failure_is_classified_as_unavailable_through_provider_wrappers() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\EnvironmentTests.cs:line 32&#xD;
+   at Scheduler.IntegrationTests.EnvironmentTests.API01_Real_connection_failure_is_classified_as_unavailable_through_provider_wrappers() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\EnvironmentTests.cs:line 32&#xD;
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Scheduler.IntegrationTests.EnvironmentTests.API01_Real_connection_failure_is_classified_as_unavailable_through_provider_wrappers" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="bbbdbb19-ec2e-8df8-2d5d-9ccd7fe9eef1">
+      <Execution id="32c65179-b5c6-4cc9-9809-6ceea464f10b" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.EnvironmentTests" name="API01_Real_connection_failure_is_classified_as_unavailable_through_provider_wrappers" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="bbbdbb19-ec2e-8df8-2d5d-9ccd7fe9eef1" executionId="32c65179-b5c6-4cc9-9809-6ceea464f10b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" passed="0" failed="1" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 8.0.31)&#xD;
+[xUnit.net 00:00:00.84]   Discovering: Scheduler.IntegrationTests&#xD;
+[xUnit.net 00:00:00.94]   Discovered:  Scheduler.IntegrationTests&#xD;
+[xUnit.net 00:00:00.95]   Starting:    Scheduler.IntegrationTests&#xD;
+fail: Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor[43]&#xD;
+      An exception occurred while trying to decrypt the element.&#xD;
+      System.Security.Cryptography.CryptographicException: Error occurred during a cryptographic operation.&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapiCore(Byte* pbProtectedData, UInt32 cbProtectedData, Byte* pbOptionalEntropy, UInt32 cbOptionalEntropy)&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapi(Byte[] protectedSecret)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor.Decrypt(XElement encryptedElement)&#xD;
+fail: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[24]&#xD;
+      An exception occurred while processing the key element '&lt;key id="6907cae3-b07a-4bbd-a04e-5dd884ea305a" version="1" /&gt;'.&#xD;
+      System.Security.Cryptography.CryptographicException: Error occurred during a cryptographic operation.&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapiCore(Byte* pbProtectedData, UInt32 cbProtectedData, Byte* pbOptionalEntropy, UInt32 cbOptionalEntropy)&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapi(Byte[] protectedSecret)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor.Decrypt(XElement encryptedElement)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.XmlEncryptionExtensions.DecryptElement(XElement element, IActivator activator)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.Microsoft.AspNetCore.DataProtection.KeyManagement.Internal.IInternalXmlKeyManager.DeserializeDescriptorFromKeyElement(XElement keyElement)&#xD;
+warn: Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver[12]&#xD;
+      Key {6907cae3-b07a-4bbd-a04e-5dd884ea305a} is ineligible to be the default key because its CreateEncryptor method failed.&#xD;
+      System.Security.Cryptography.CryptographicException: Error occurred during a cryptographic operation.&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapiCore(Byte* pbProtectedData, UInt32 cbProtectedData, Byte* pbOptionalEntropy, UInt32 cbOptionalEntropy)&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapi(Byte[] protectedSecret)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor.Decrypt(XElement encryptedElement)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.XmlEncryptionExtensions.DecryptElement(XElement element, IActivator activator)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.Microsoft.AspNetCore.DataProtection.KeyManagement.Internal.IInternalXmlKeyManager.DeserializeDescriptorFromKeyElement(XElement keyElement)&#xD;
+         at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)&#xD;
+         at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)&#xD;
+         at System.Lazy`1.CreateValue()&#xD;
+         at Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngGcmAuthenticatedEncryptorFactory.CreateEncryptorInstance(IKey key)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyBase.CreateEncryptor()&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver.CanCreateAuthenticatedEncryptor(IKey key)&#xD;
+warn: Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver[12]&#xD;
+      Key {6907cae3-b07a-4bbd-a04e-5dd884ea305a} is ineligible to be the default key because its CreateEncryptor method failed.&#xD;
+      System.Security.Cryptography.CryptographicException: Error occurred during a cryptographic operation.&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapiCore(Byte* pbProtectedData, UInt32 cbProtectedData, Byte* pbOptionalEntropy, UInt32 cbOptionalEntropy)&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapi(Byte[] protectedSecret)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor.Decrypt(XElement encryptedElement)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.XmlEncryptionExtensions.DecryptElement(XElement element, IActivator activator)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.Microsoft.AspNetCore.DataProtection.KeyManagement.Internal.IInternalXmlKeyManager.DeserializeDescriptorFromKeyElement(XElement keyElement)&#xD;
+         at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)&#xD;
+      --- End of stack trace from previous location ---&#xD;
+         at System.Lazy`1.CreateValue()&#xD;
+         at Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngGcmAuthenticatedEncryptorFactory.CreateEncryptorInstance(IKey key)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyBase.CreateEncryptor()&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver.CanCreateAuthenticatedEncryptor(IKey key)&#xD;
+fail: Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor[43]&#xD;
+      An exception occurred while trying to decrypt the element.&#xD;
+      System.Security.Cryptography.CryptographicException: Error occurred during a cryptographic operation.&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapiCore(Byte* pbProtectedData, UInt32 cbProtectedData, Byte* pbOptionalEntropy, UInt32 cbOptionalEntropy)&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapi(Byte[] protectedSecret)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor.Decrypt(XElement encryptedElement)&#xD;
+fail: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[24]&#xD;
+      An exception occurred while processing the key element '&lt;key id="0cf57bc8-6369-429d-b01e-ad6ef074076d" version="1" /&gt;'.&#xD;
+      System.Security.Cryptography.CryptographicException: Error occurred during a cryptographic operation.&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapiCore(Byte* pbProtectedData, UInt32 cbProtectedData, Byte* pbOptionalEntropy, UInt32 cbOptionalEntropy)&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapi(Byte[] protectedSecret)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor.Decrypt(XElement encryptedElement)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.XmlEncryptionExtensions.DecryptElement(XElement element, IActivator activator)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.Microsoft.AspNetCore.DataProtection.KeyManagement.Internal.IInternalXmlKeyManager.DeserializeDescriptorFromKeyElement(XElement keyElement)&#xD;
+warn: Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver[12]&#xD;
+      Key {0cf57bc8-6369-429d-b01e-ad6ef074076d} is ineligible to be the default key because its CreateEncryptor method failed.&#xD;
+      System.Security.Cryptography.CryptographicException: Error occurred during a cryptographic operation.&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapiCore(Byte* pbProtectedData, UInt32 cbProtectedData, Byte* pbOptionalEntropy, UInt32 cbOptionalEntropy)&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapi(Byte[] protectedSecret)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor.Decrypt(XElement encryptedElement)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.XmlEncryptionExtensions.DecryptElement(XElement element, IActivator activator)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.Microsoft.AspNetCore.DataProtection.KeyManagement.Internal.IInternalXmlKeyManager.DeserializeDescriptorFromKeyElement(XElement keyElement)&#xD;
+         at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)&#xD;
+         at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)&#xD;
+         at System.Lazy`1.CreateValue()&#xD;
+         at Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngGcmAuthenticatedEncryptorFactory.CreateEncryptorInstance(IKey key)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyBase.CreateEncryptor()&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver.CanCreateAuthenticatedEncryptor(IKey key)&#xD;
+fail: Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor[43]&#xD;
+      An exception occurred while trying to decrypt the element.&#xD;
+      System.Security.Cryptography.CryptographicException: Error occurred during a cryptographic operation.&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapiCore(Byte* pbProtectedData, UInt32 cbProtectedData, Byte* pbOptionalEntropy, UInt32 cbOptionalEntropy)&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapi(Byte[] protectedSecret)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor.Decrypt(XElement encryptedElement)&#xD;
+fail: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[24]&#xD;
+      An exception occurred while processing the key element '&lt;key id="b2640668-7138-4dfe-a670-fc2e78429f25" version="1" /&gt;'.&#xD;
+      System.Security.Cryptography.CryptographicException: Error occurred during a cryptographic operation.&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapiCore(Byte* pbProtectedData, UInt32 cbProtectedData, Byte* pbOptionalEntropy, UInt32 cbOptionalEntropy)&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapi(Byte[] protectedSecret)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor.Decrypt(XElement encryptedElement)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.XmlEncryptionExtensions.DecryptElement(XElement element, IActivator activator)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.Microsoft.AspNetCore.DataProtection.KeyManagement.Internal.IInternalXmlKeyManager.DeserializeDescriptorFromKeyElement(XElement keyElement)&#xD;
+warn: Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver[12]&#xD;
+      Key {b2640668-7138-4dfe-a670-fc2e78429f25} is ineligible to be the default key because its CreateEncryptor method failed.&#xD;
+      System.Security.Cryptography.CryptographicException: Error occurred during a cryptographic operation.&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapiCore(Byte* pbProtectedData, UInt32 cbProtectedData, Byte* pbOptionalEntropy, UInt32 cbOptionalEntropy)&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapi(Byte[] protectedSecret)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor.Decrypt(XElement encryptedElement)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.XmlEncryptionExtensions.DecryptElement(XElement element, IActivator activator)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.Microsoft.AspNetCore.DataProtection.KeyManagement.Internal.IInternalXmlKeyManager.DeserializeDescriptorFromKeyElement(XElement keyElement)&#xD;
+         at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)&#xD;
+         at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)&#xD;
+         at System.Lazy`1.CreateValue()&#xD;
+         at Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngGcmAuthenticatedEncryptorFactory.CreateEncryptorInstance(IKey key)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyBase.CreateEncryptor()&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver.CanCreateAuthenticatedEncryptor(IKey key)&#xD;
+warn: Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver[12]&#xD;
+      Key {b2640668-7138-4dfe-a670-fc2e78429f25} is ineligible to be the default key because its CreateEncryptor method failed.&#xD;
+      System.Security.Cryptography.CryptographicException: Error occurred during a cryptographic operation.&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapiCore(Byte* pbProtectedData, UInt32 cbProtectedData, Byte* pbOptionalEntropy, UInt32 cbOptionalEntropy)&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapi(Byte[] protectedSecret)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor.Decrypt(XElement encryptedElement)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.XmlEncryptionExtensions.DecryptElement(XElement element, IActivator activator)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.Microsoft.AspNetCore.DataProtection.KeyManagement.Internal.IInternalXmlKeyManager.DeserializeDescriptorFromKeyElement(XElement keyElement)&#xD;
+         at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)&#xD;
+      --- End of stack trace from previous location ---&#xD;
+         at System.Lazy`1.CreateValue()&#xD;
+         at Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngGcmAuthenticatedEncryptorFactory.CreateEncryptorInstance(IKey key)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyBase.CreateEncryptor()&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver.CanCreateAuthenticatedEncryptor(IKey key)&#xD;
+warn: Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver[12]&#xD;
+      Key {0cf57bc8-6369-429d-b01e-ad6ef074076d} is ineligible to be the default key because its CreateEncryptor method failed.&#xD;
+      System.Security.Cryptography.CryptographicException: Error occurred during a cryptographic operation.&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapiCore(Byte* pbProtectedData, UInt32 cbProtectedData, Byte* pbOptionalEntropy, UInt32 cbOptionalEntropy)&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapi(Byte[] protectedSecret)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor.Decrypt(XElement encryptedElement)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.XmlEncryptionExtensions.DecryptElement(XElement element, IActivator activator)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.Microsoft.AspNetCore.DataProtection.KeyManagement.Internal.IInternalXmlKeyManager.DeserializeDescriptorFromKeyElement(XElement keyElement)&#xD;
+         at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)&#xD;
+      --- End of stack trace from previous location ---&#xD;
+         at System.Lazy`1.CreateValue()&#xD;
+         at Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngGcmAuthenticatedEncryptorFactory.CreateEncryptorInstance(IKey key)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyBase.CreateEncryptor()&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver.CanCreateAuthenticatedEncryptor(IKey key)&#xD;
+warn: Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver[12]&#xD;
+      Key {6907cae3-b07a-4bbd-a04e-5dd884ea305a} is ineligible to be the default key because its CreateEncryptor method failed.&#xD;
+      System.Security.Cryptography.CryptographicException: Error occurred during a cryptographic operation.&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapiCore(Byte* pbProtectedData, UInt32 cbProtectedData, Byte* pbOptionalEntropy, UInt32 cbOptionalEntropy)&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapi(Byte[] protectedSecret)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor.Decrypt(XElement encryptedElement)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.XmlEncryptionExtensions.DecryptElement(XElement element, IActivator activator)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.Microsoft.AspNetCore.DataProtection.KeyManagement.Internal.IInternalXmlKeyManager.DeserializeDescriptorFromKeyElement(XElement keyElement)&#xD;
+         at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)&#xD;
+      --- End of stack trace from previous location ---&#xD;
+         at System.Lazy`1.CreateValue()&#xD;
+         at Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngGcmAuthenticatedEncryptorFactory.CreateEncryptorInstance(IKey key)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyBase.CreateEncryptor()&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver.CanCreateAuthenticatedEncryptor(IKey key)&#xD;
+fail: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider[48]&#xD;
+      An error occurred while reading the key ring.&#xD;
+      System.UnauthorizedAccessException: Access to the path 'C:\Users\X1\AppData\Local\ASP.NET\DataProtection-Keys\a29052d2-53ff-4fdf-aeff-d7bce02602bd.tmp' is denied.&#xD;
+         at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)&#xD;
+         at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)&#xD;
+         at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)&#xD;
+         at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)&#xD;
+         at System.IO.File.OpenWrite(String path)&#xD;
+         at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.StoreElementCore(XElement element, String filename)&#xD;
+         at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.StoreElement(XElement element, String friendlyName)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.Microsoft.AspNetCore.DataProtection.KeyManagement.Internal.IInternalXmlKeyManager.CreateNewKey(Guid keyId, DateTimeOffset creationDate, DateTimeOffset activationDate, DateTimeOffset expirationDate)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.CreateNewKey(DateTimeOffset activationDate, DateTimeOffset expirationDate)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)&#xD;
+info: Microsoft.Hosting.Lifetime[14]&#xD;
+      Now listening on: http://localhost:5080&#xD;
+[xUnit.net 00:00:03.58]       Observed provider exception chain: System.InvalidOperationException -&gt; Npgsql.NpgsqlException -&gt; System.TimeoutException&#xD;
+[xUnit.net 00:00:03.58]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.58]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\EnvironmentTests.cs(32,0): at Scheduler.IntegrationTests.EnvironmentTests.API01_Real_connection_failure_is_classified_as_unavailable_through_provider_wrappers()&#xD;
+[xUnit.net 00:00:03.58]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\EnvironmentTests.cs(32,0): at Scheduler.IntegrationTests.EnvironmentTests.API01_Real_connection_failure_is_classified_as_unavailable_through_provider_wrappers()&#xD;
+[xUnit.net 00:00:03.58]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\EnvironmentTests.cs(32,0): at Scheduler.IntegrationTests.EnvironmentTests.API01_Real_connection_failure_is_classified_as_unavailable_through_provider_wrappers()&#xD;
+[xUnit.net 00:00:03.58]         --- End of stack trace from previous location ---&#xD;
+[xUnit.net 00:00:03.59]   Finished:    Scheduler.IntegrationTests&#xD;
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T21:09:37.6959772+07:00">
+        <Text>[xUnit.net 00:00:03.58]     Scheduler.IntegrationTests.EnvironmentTests.API01_Real_connection_failure_is_classified_as_unavailable_through_provider_wrappers [FAIL]</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>

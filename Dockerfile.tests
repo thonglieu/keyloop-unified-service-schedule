@@ -1,0 +1,19 @@
+FROM mcr.microsoft.com/dotnet/sdk:8.0.407
+WORKDIR /src
+
+COPY global.json Keyloop.ServiceScheduler.sln ./
+COPY src/backend/Scheduler.Domain/Scheduler.Domain.csproj src/backend/Scheduler.Domain/
+COPY src/backend/Scheduler.Application/Scheduler.Application.csproj src/backend/Scheduler.Application/
+COPY src/backend/Scheduler.Infrastructure/Scheduler.Infrastructure.csproj src/backend/Scheduler.Infrastructure/
+COPY src/backend/Scheduler.Api/Scheduler.Api.csproj src/backend/Scheduler.Api/
+COPY tests/Scheduler.UnitTests/Scheduler.UnitTests.csproj tests/Scheduler.UnitTests/
+COPY tests/Scheduler.IntegrationTests/Scheduler.IntegrationTests.csproj tests/Scheduler.IntegrationTests/
+RUN dotnet restore Keyloop.ServiceScheduler.sln
+
+# Keep the solution/source layout for architecture checks and API subprocess tests.
+COPY src/backend/ src/backend/
+COPY tests/ tests/
+COPY docker/tests/run-tests.sh /run-tests.sh
+RUN dotnet build Keyloop.ServiceScheduler.sln --configuration Release --no-restore
+
+ENTRYPOINT ["/bin/sh", "/run-tests.sh"]

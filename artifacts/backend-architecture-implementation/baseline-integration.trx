@@ -1,0 +1,751 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="0286c299-9b8c-4fd8-b822-873477eeeb41" name="X1@THONG-LIEU 2026-10-27 14:29:27" runUser="THONG-LIEU\CodexSandboxOffline" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-27T14:29:27.9824056+07:00" queuing="2026-10-27T14:29:27.9824058+07:00" start="2026-10-27T14:29:21.1798996+07:00" finish="2026-10-27T14:29:44.4265545+07:00" />
+  <TestSettings name="default" id="df9f7cec-d6ea-48e1-a499-590358d0c526">
+    <Deployment runDeploymentRoot="X1_THONG-LIEU_2026-10-27_14_29_27" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="18eed283-ed2a-4deb-b297-c64dfad6fca5" testId="0476251e-cede-af9d-56e1-f3ebb390244b" testName="Scheduler.IntegrationTests.BookingTests.AC14_Equivalent_explicit_offsets_share_the_same_UTC_interval" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9782666+07:00" endTime="2026-10-27T14:29:27.9782668+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18eed283-ed2a-4deb-b297-c64dfad6fca5">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4d5499dc-eb7f-47d5-bd1d-b8611d0d5ce8" testId="5b0422e8-7247-10ab-5875-8eb394640662" testName="Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: &quot;serviceTypeId&quot;, status: 404)" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.8987905+07:00" endTime="2026-10-27T14:29:27.8988373+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d5499dc-eb7f-47d5-bd1d-b8611d0d5ce8">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="90033133-5add-460e-84b8-a0b378f0d0b5" testId="99d5b4d4-bfd8-2619-8bc0-dfc0d7f35bef" testName="Scheduler.IntegrationTests.BookingTests.AC10_11_Concurrent_clients_use_all_and_only_available_capacity(capacity: 1, requests: 20)" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9530270+07:00" endTime="2026-10-27T14:29:27.9530272+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90033133-5add-460e-84b8-a0b378f0d0b5">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="90987914-1e1b-43e9-9d37-5869d4159f82" testId="e3ecf1ba-016b-5b6c-0c1d-a5d3d683761e" testName="Scheduler.IntegrationTests.EnvironmentTests.AC17_Seed_command_rejects_each_guard_before_connecting(environment: &quot;Development&quot;, enabled: &quot;false&quot;, database: &quot;keyloop_scheduler_demo&quot;)" computerName="THONG-LIEU" duration="00:00:01.8427962" startTime="2026-10-27T14:29:43.5825908+07:00" endTime="2026-10-27T14:29:43.5825912+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90987914-1e1b-43e9-9d37-5869d4159f82" />
+    <UnitTestResult executionId="de7109be-a5bd-4525-ab4d-f008685d84ad" testId="bea86f92-ed14-65ce-acdf-fe7f18810309" testName="Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: &quot;offsetless&quot;, status: 400)" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9228550+07:00" endTime="2026-10-27T14:29:27.9228552+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="de7109be-a5bd-4525-ab4d-f008685d84ad">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b4c04301-2ed8-485f-95a5-f390aebb77db" testId="481cbf94-d365-05c0-3f01-c5e6ffd83d25" testName="Scheduler.IntegrationTests.BookingTests.AC06_Only_one_resource_overlapping_later_in_the_interval_blocks_booking(occupiedBay: False)" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9766074+07:00" endTime="2026-10-27T14:29:27.9766076+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b4c04301-2ed8-485f-95a5-f390aebb77db">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8c234081-0d13-4341-adea-d5bb3b324509" testId="40c801c9-bfd2-367e-c4da-60fc76bebc0d" testName="Scheduler.IntegrationTests.BookingTests.AC04_05_06_Entire_interval_requires_both_resources_and_opening_hours(reason: &quot;shortTechnicianWindow&quot;)" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9598831+07:00" endTime="2026-10-27T14:29:27.9598833+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c234081-0d13-4341-adea-d5bb3b324509">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9abc008a-095b-4d90-b6ef-22ec2f985afe" testId="0790c9db-8cb3-3bf0-a445-8a12a21007dd" testName="Scheduler.IntegrationTests.BookingTests.AC15_Stored_interval_survives_service_duration_changes" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9741747+07:00" endTime="2026-10-27T14:29:27.9741750+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9abc008a-095b-4d90-b6ef-22ec2f985afe">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e4d40192-b9d4-48f2-9379-338b75e4f771" testId="159ff7de-8174-5032-bd78-519d8fafc58a" testName="Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: &quot;overrideBay&quot;, status: 400)" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9237191+07:00" endTime="2026-10-27T14:29:27.9237194+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e4d40192-b9d4-48f2-9379-338b75e4f771">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cdfb5bb6-50fc-4661-a495-a4d35e2b7fbf" testId="8fe62f80-6e8a-71f5-143b-1a5380df9b69" testName="Scheduler.IntegrationTests.BookingTests.AC02_Malformed_json_is_a_400_problem" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9504719+07:00" endTime="2026-10-27T14:29:27.9504722+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cdfb5bb6-50fc-4661-a495-a4d35e2b7fbf">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4288915f-2641-420d-8993-e70f0c669fa1" testId="eae63884-03ad-077c-cbd9-c3041fa261f1" testName="Scheduler.IntegrationTests.FixturePersistenceTests.AC27_Missing_schema_is_not_ready_even_with_a_valid_connection" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9789698+07:00" endTime="2026-10-27T14:29:27.9789700+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4288915f-2641-420d-8993-e70f0c669fa1">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="89ce4b40-099c-44cb-87df-8005b6ba53f2" testId="39663bfd-08c0-dc93-36b1-c4970fa99b23" testName="Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: &quot;overrideEnd&quot;, status: 400)" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9489423+07:00" endTime="2026-10-27T14:29:27.9489426+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="89ce4b40-099c-44cb-87df-8005b6ba53f2">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="98ff80ef-4ea6-4197-b036-13cbcdbb29b8" testId="80001ab7-bf93-81af-97d4-1a5c617212e7" testName="Scheduler.IntegrationTests.BookingTests.AC06_Only_one_resource_overlapping_later_in_the_interval_blocks_booking(occupiedBay: True)" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9771631+07:00" endTime="2026-10-27T14:29:27.9771633+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98ff80ef-4ea6-4197-b036-13cbcdbb29b8">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6721cb14-ecb2-48b7-9f59-a81a6877d5bc" testId="3354923e-70ad-7dd6-a0a2-b9194f72fab6" testName="Scheduler.IntegrationTests.EnvironmentTests.AC17_Seed_command_rejects_each_guard_before_connecting(environment: &quot;Development&quot;, enabled: &quot;true&quot;, database: &quot;keyloop_scheduler_test_forbiddenseed&quot;)" computerName="THONG-LIEU" duration="00:00:02.7663485" startTime="2026-10-27T14:29:41.7390660+07:00" endTime="2026-10-27T14:29:41.7390671+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6721cb14-ecb2-48b7-9f59-a81a6877d5bc" />
+    <UnitTestResult executionId="c8c9f3a4-7481-43af-bced-e735dfc11cc6" testId="f9c01225-440f-4504-9e6a-d266cdac2c83" testName="Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: &quot;emptyId&quot;, status: 400)" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9482363+07:00" endTime="2026-10-27T14:29:27.9482366+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8c9f3a4-7481-43af-bced-e735dfc11cc6">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1f814bd1-8edb-40d6-ae91-26aa5fb4e686" testId="7b6ab5da-fefb-a396-6ed2-7aa73f12db90" testName="Scheduler.IntegrationTests.BookingTests.AC01_03_08_09_Booking_persists_all_associations_across_a_new_host" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9747739+07:00" endTime="2026-10-27T14:29:27.9747741+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f814bd1-8edb-40d6-ae91-26aa5fb4e686">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="25e1c7fd-7dee-4244-af62-a47ac93f1773" testId="f7ba8fe0-98ae-388e-3ccc-a51186806b80" testName="Scheduler.IntegrationTests.BookingTests.AC10_11_Concurrent_clients_use_all_and_only_available_capacity(capacity: 2, requests: 20)" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9521623+07:00" endTime="2026-10-27T14:29:27.9521626+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25e1c7fd-7dee-4244-af62-a47ac93f1773">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6ac58e28-e3a0-4661-bb6f-d21e91e35e7a" testId="b485a403-6d0f-77de-226b-4a6c5e456efa" testName="Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: &quot;invalidDate&quot;, status: 400)" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9168247+07:00" endTime="2026-10-27T14:29:27.9168249+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6ac58e28-e3a0-4661-bb6f-d21e91e35e7a">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f443df99-5d9c-4268-8515-f862a0f75e72" testId="5793ab83-d933-d5a1-7cbf-693f8bb9c8aa" testName="Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: &quot;vehicleId&quot;, status: 404)" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9196315+07:00" endTime="2026-10-27T14:29:27.9196319+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f443df99-5d9c-4268-8515-f862a0f75e72">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d737e6de-a572-4339-a477-7808114c8a0f" testId="d2936695-d059-649d-b6fc-79c4dbbbc2d4" testName="Scheduler.IntegrationTests.EnvironmentTests.AC17_Seed_command_rejects_each_guard_before_connecting(environment: &quot;Production&quot;, enabled: &quot;true&quot;, database: &quot;keyloop_scheduler_demo&quot;)" computerName="THONG-LIEU" duration="00:00:06.1637209" startTime="2026-10-27T14:29:38.9713644+07:00" endTime="2026-10-27T14:29:38.9713650+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d737e6de-a572-4339-a477-7808114c8a0f" />
+    <UnitTestResult executionId="24482543-3b45-409d-842c-716ee6c69bea" testId="2e827dca-1972-9da9-84a4-6da36c3cea23" testName="Scheduler.IntegrationTests.EnvironmentTests.AC27_Database_unavailable_returns_503_but_process_remains_live" computerName="THONG-LIEU" duration="00:00:00.6235974" startTime="2026-10-27T14:29:44.2098621+07:00" endTime="2026-10-27T14:29:44.2098626+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="24482543-3b45-409d-842c-716ee6c69bea">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Equal() Failure: Values differ&#xD;
+Expected: ServiceUnavailable&#xD;
+Actual:   OK</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.EnvironmentTests.AC27_Database_unavailable_returns_503_but_process_remains_live() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\EnvironmentTests.cs:line 70&#xD;
+   at Scheduler.IntegrationTests.EnvironmentTests.AC27_Database_unavailable_returns_503_but_process_remains_live() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\EnvironmentTests.cs:line 70&#xD;
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="89638277-6d2f-4cf5-b3ce-58b0156388ed" testId="26545782-09ee-b8b8-a3f7-1d7d716bee32" testName="Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: &quot;ownership&quot;, status: 400)" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9205198+07:00" endTime="2026-10-27T14:29:27.9205201+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="89638277-6d2f-4cf5-b3ce-58b0156388ed">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bc1bcc89-6c47-4f63-b738-b42b5b41e530" testId="ed0d352c-2365-b5e5-9420-2804ea2cf64e" testName="Scheduler.IntegrationTests.FixturePersistenceTests.AC16_Seed_core_creates_isolated_namespaces_without_removing_existing_data" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9795288+07:00" endTime="2026-10-27T14:29:27.9795291+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc1bcc89-6c47-4f63-b738-b42b5b41e530">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="019b537a-289d-489e-b0fa-8c60451ade4b" testId="612a5a33-f261-8300-8eb7-51ba60773186" testName="Scheduler.IntegrationTests.BookingTests.AC13_Postgres_independently_rejects_each_resource_overlap(sameTechnician: False, constraint: &quot;appointment_bay_no_overlap&quot;)" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9735519+07:00" endTime="2026-10-27T14:29:27.9735523+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="019b537a-289d-489e-b0fa-8c60451ade4b">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d5cc17ae-f8da-4e46-a947-9b8769fcf370" testId="59bcb25a-0add-f146-2c5d-b781a95352c6" testName="Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: &quot;overrideTechnician&quot;, status: 400)" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9496548+07:00" endTime="2026-10-27T14:29:27.9496550+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5cc17ae-f8da-4e46-a947-9b8769fcf370">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3c5b804d-2a6b-4750-87e8-99d76e5a6f9a" testId="d66e5014-0349-9b5a-7a16-5d5d66dee7a6" testName="Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: &quot;customerId&quot;, status: 404)" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9128251+07:00" endTime="2026-10-27T14:29:27.9128253+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c5b804d-2a6b-4750-87e8-99d76e5a6f9a">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7750a9f2-d634-4cc9-a695-a0559c5121e1" testId="fca44282-21b8-e0f7-0e8d-96cf75202e5a" testName="Scheduler.IntegrationTests.BookingTests.AC13_Postgres_independently_rejects_each_resource_overlap(sameTechnician: True, constraint: &quot;appointment_technician_no_overlap&quot;)" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9612531+07:00" endTime="2026-10-27T14:29:27.9612533+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7750a9f2-d634-4cc9-a695-a0559c5121e1">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2b25a587-bea2-4b8c-98d6-7bd66602a1ca" testId="20c5380a-39b9-c82c-960a-0ec8340e1804" testName="Scheduler.IntegrationTests.EnvironmentTests.AC17_Fixture_endpoint_is_disabled_outside_permitted_demo_environment(environment: &quot;Production&quot;, enabled: True)" computerName="THONG-LIEU" duration="00:00:00.0792136" startTime="2026-10-27T14:29:30.6787995+07:00" endTime="2026-10-27T14:29:30.6787998+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b25a587-bea2-4b8c-98d6-7bd66602a1ca" />
+    <UnitTestResult executionId="c5e68a62-3ce1-464a-841d-6bebc01eb01b" testId="77bb2c2b-12b1-5a1f-5c29-a18777d5da2c" testName="Scheduler.IntegrationTests.BookingTests.AC04_05_06_Entire_interval_requires_both_resources_and_opening_hours(reason: &quot;noBay&quot;)" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9605705+07:00" endTime="2026-10-27T14:29:27.9605707+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c5e68a62-3ce1-464a-841d-6bebc01eb01b">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="07957d73-5ea6-4886-bbd1-d0d0cb6ec60e" testId="8da35a74-953f-38ce-e04e-eb4c4ada2e61" testName="Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: &quot;dealershipId&quot;, status: 404)" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9219622+07:00" endTime="2026-10-27T14:29:27.9219624+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07957d73-5ea6-4886-bbd1-d0d0cb6ec60e">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="af4da6f5-30a5-48e2-9ff3-a5ee074911ee" testId="b92dae3f-a4dc-9631-27a2-f378f1fafa81" testName="Scheduler.IntegrationTests.BookingTests.AC04_05_06_Entire_interval_requires_both_resources_and_opening_hours(reason: &quot;unqualified&quot;)" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9577132+07:00" endTime="2026-10-27T14:29:27.9577135+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af4da6f5-30a5-48e2-9ff3-a5ee074911ee">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e24fd1d7-0794-47d0-af91-36ae57f58efb" testId="bb33f6d5-3320-e864-1666-7f0cf29dea9a" testName="Scheduler.IntegrationTests.EnvironmentTests.AC17_Fixture_endpoint_is_disabled_outside_permitted_demo_environment(environment: &quot;Development&quot;, enabled: False)" computerName="THONG-LIEU" duration="00:00:02.6978114" startTime="2026-10-27T14:29:30.5983417+07:00" endTime="2026-10-27T14:29:30.5983421+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e24fd1d7-0794-47d0-af91-36ae57f58efb" />
+    <UnitTestResult executionId="b6a04b04-ea23-4291-a8f0-6e25efa86318" testId="e47b6b50-5b29-36ab-4444-9630df814c2f" testName="Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: &quot;past&quot;, status: 400)" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9178286+07:00" endTime="2026-10-27T14:29:27.9178288+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b6a04b04-ea23-4291-a8f0-6e25efa86318">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4785e35b-3347-4733-b6dc-3121b1f08b42" testId="dd6f7d19-0d7a-330c-9e1a-a718ada76408" testName="Scheduler.IntegrationTests.BookingTests.AC04_05_06_Entire_interval_requires_both_resources_and_opening_hours(reason: &quot;shortBayWindow&quot;)" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9591890+07:00" endTime="2026-10-27T14:29:27.9591893+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4785e35b-3347-4733-b6dc-3121b1f08b42">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="dd0e6dd4-5518-4e15-8cd3-7e9a0a3ea72c" testId="4b84e696-e538-f8aa-a563-f14215665382" testName="Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: &quot;missingVehicle&quot;, status: 400)" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9474541+07:00" endTime="2026-10-27T14:29:27.9474544+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd0e6dd4-5518-4e15-8cd3-7e9a0a3ea72c">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2c73091d-b844-4007-a6a3-2142b2784c69" testId="27928585-3e89-9b34-657e-4e213b4cfdb2" testName="Scheduler.IntegrationTests.EnvironmentTests.AC26_Unexpected_database_failure_is_500_and_emits_failed_metric_duration_and_booking_span" computerName="THONG-LIEU" duration="00:00:02.1211887" startTime="2026-10-27T14:29:32.8087284+07:00" endTime="2026-10-27T14:29:32.8087286+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c73091d-b844-4007-a6a3-2142b2784c69">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Equal() Failure: Values differ&#xD;
+Expected: InternalServerError&#xD;
+Actual:   NotFound</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.EnvironmentTests.AC26_Unexpected_database_failure_is_500_and_emits_failed_metric_duration_and_booking_span() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\EnvironmentTests.cs:line 53&#xD;
+   at Scheduler.IntegrationTests.EnvironmentTests.AC26_Unexpected_database_failure_is_500_and_emits_failed_metric_duration_and_booking_span() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\EnvironmentTests.cs:line 60&#xD;
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f067a81b-34d5-4422-8fbe-593b49f114a1" testId="f75944cb-e46f-ae84-ceae-aa574fb5b073" testName="Scheduler.IntegrationTests.BookingTests.AC12_Advisory_availability_does_not_reserve_capacity" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9511697+07:00" endTime="2026-10-27T14:29:27.9511700+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f067a81b-34d5-4422-8fbe-593b49f114a1">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="086c2d7e-df6b-4537-b318-0e1211efda70" testId="856db419-3fdb-7bba-55ab-a7b4064afc8b" testName="Scheduler.IntegrationTests.BookingTests.AC04_05_06_Entire_interval_requires_both_resources_and_opening_hours(reason: &quot;closing&quot;)" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9584893+07:00" endTime="2026-10-27T14:29:27.9584895+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="086c2d7e-df6b-4537-b318-0e1211efda70">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="77f63e7b-8422-4cb5-991f-11d5c9d70ada" testId="166e9962-12bf-ccad-63a0-388c0a6f1177" testName="Scheduler.IntegrationTests.BookingTests.AC07_Touching_boundaries_allow_the_same_resources" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9777189+07:00" endTime="2026-10-27T14:29:27.9777191+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="77f63e7b-8422-4cb5-991f-11d5c9d70ada">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5245ea5f-59c1-43cc-ac22-1bf5d4698934" testId="ffd9b5e4-6188-b261-3331-7b650c40ff36" testName="Scheduler.IntegrationTests.BookingTests.AC04_05_06_Entire_interval_requires_both_resources_and_opening_hours(reason: &quot;beforeOpening&quot;)" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-27T14:29:27.9538461+07:00" endTime="2026-10-27T14:29:27.9538464+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5245ea5f-59c1-43cc-ac22-1bf5d4698934">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.</Message>
+          <StackTrace>   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Scheduler.IntegrationTests.BookingTests.AC06_Only_one_resource_overlapping_later_in_the_interval_blocks_booking(occupiedBay: True)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="80001ab7-bf93-81af-97d4-1a5c617212e7">
+      <Execution id="98ff80ef-4ea6-4197-b036-13cbcdbb29b8" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.BookingTests" name="AC06_Only_one_resource_overlapping_later_in_the_interval_blocks_booking" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.BookingTests.AC13_Postgres_independently_rejects_each_resource_overlap(sameTechnician: False, constraint: &quot;appointment_bay_no_overlap&quot;)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="612a5a33-f261-8300-8eb7-51ba60773186">
+      <Execution id="019b537a-289d-489e-b0fa-8c60451ade4b" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.BookingTests" name="AC13_Postgres_independently_rejects_each_resource_overlap" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.BookingTests.AC04_05_06_Entire_interval_requires_both_resources_and_opening_hours(reason: &quot;beforeOpening&quot;)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="ffd9b5e4-6188-b261-3331-7b650c40ff36">
+      <Execution id="5245ea5f-59c1-43cc-ac22-1bf5d4698934" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.BookingTests" name="AC04_05_06_Entire_interval_requires_both_resources_and_opening_hours" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: &quot;emptyId&quot;, status: 400)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="f9c01225-440f-4504-9e6a-d266cdac2c83">
+      <Execution id="c8c9f3a4-7481-43af-bced-e735dfc11cc6" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.BookingTests" name="AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: &quot;missingVehicle&quot;, status: 400)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="4b84e696-e538-f8aa-a563-f14215665382">
+      <Execution id="dd0e6dd4-5518-4e15-8cd3-7e9a0a3ea72c" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.BookingTests" name="AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.BookingTests.AC10_11_Concurrent_clients_use_all_and_only_available_capacity(capacity: 2, requests: 20)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="f7ba8fe0-98ae-388e-3ccc-a51186806b80">
+      <Execution id="25e1c7fd-7dee-4244-af62-a47ac93f1773" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.BookingTests" name="AC10_11_Concurrent_clients_use_all_and_only_available_capacity" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.BookingTests.AC04_05_06_Entire_interval_requires_both_resources_and_opening_hours(reason: &quot;shortTechnicianWindow&quot;)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="40c801c9-bfd2-367e-c4da-60fc76bebc0d">
+      <Execution id="8c234081-0d13-4341-adea-d5bb3b324509" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.BookingTests" name="AC04_05_06_Entire_interval_requires_both_resources_and_opening_hours" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: &quot;invalidDate&quot;, status: 400)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="b485a403-6d0f-77de-226b-4a6c5e456efa">
+      <Execution id="6ac58e28-e3a0-4661-bb6f-d21e91e35e7a" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.BookingTests" name="AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.BookingTests.AC04_05_06_Entire_interval_requires_both_resources_and_opening_hours(reason: &quot;closing&quot;)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="856db419-3fdb-7bba-55ab-a7b4064afc8b">
+      <Execution id="086c2d7e-df6b-4537-b318-0e1211efda70" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.BookingTests" name="AC04_05_06_Entire_interval_requires_both_resources_and_opening_hours" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.BookingTests.AC12_Advisory_availability_does_not_reserve_capacity" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="f75944cb-e46f-ae84-ceae-aa574fb5b073">
+      <Execution id="f067a81b-34d5-4422-8fbe-593b49f114a1" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.BookingTests" name="AC12_Advisory_availability_does_not_reserve_capacity" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.BookingTests.AC10_11_Concurrent_clients_use_all_and_only_available_capacity(capacity: 1, requests: 20)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="99d5b4d4-bfd8-2619-8bc0-dfc0d7f35bef">
+      <Execution id="90033133-5add-460e-84b8-a0b378f0d0b5" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.BookingTests" name="AC10_11_Concurrent_clients_use_all_and_only_available_capacity" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: &quot;serviceTypeId&quot;, status: 404)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="5b0422e8-7247-10ab-5875-8eb394640662">
+      <Execution id="4d5499dc-eb7f-47d5-bd1d-b8611d0d5ce8" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.BookingTests" name="AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: &quot;offsetless&quot;, status: 400)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="bea86f92-ed14-65ce-acdf-fe7f18810309">
+      <Execution id="de7109be-a5bd-4525-ab4d-f008685d84ad" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.BookingTests" name="AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: &quot;ownership&quot;, status: 400)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="26545782-09ee-b8b8-a3f7-1d7d716bee32">
+      <Execution id="89638277-6d2f-4cf5-b3ce-58b0156388ed" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.BookingTests" name="AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.BookingTests.AC06_Only_one_resource_overlapping_later_in_the_interval_blocks_booking(occupiedBay: False)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="481cbf94-d365-05c0-3f01-c5e6ffd83d25">
+      <Execution id="b4c04301-2ed8-485f-95a5-f390aebb77db" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.BookingTests" name="AC06_Only_one_resource_overlapping_later_in_the_interval_blocks_booking" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.EnvironmentTests.AC27_Database_unavailable_returns_503_but_process_remains_live" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="2e827dca-1972-9da9-84a4-6da36c3cea23">
+      <Execution id="24482543-3b45-409d-842c-716ee6c69bea" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.EnvironmentTests" name="AC27_Database_unavailable_returns_503_but_process_remains_live" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.BookingTests.AC14_Equivalent_explicit_offsets_share_the_same_UTC_interval" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="0476251e-cede-af9d-56e1-f3ebb390244b">
+      <Execution id="18eed283-ed2a-4deb-b297-c64dfad6fca5" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.BookingTests" name="AC14_Equivalent_explicit_offsets_share_the_same_UTC_interval" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.BookingTests.AC04_05_06_Entire_interval_requires_both_resources_and_opening_hours(reason: &quot;shortBayWindow&quot;)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="dd6f7d19-0d7a-330c-9e1a-a718ada76408">
+      <Execution id="4785e35b-3347-4733-b6dc-3121b1f08b42" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.BookingTests" name="AC04_05_06_Entire_interval_requires_both_resources_and_opening_hours" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: &quot;past&quot;, status: 400)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="e47b6b50-5b29-36ab-4444-9630df814c2f">
+      <Execution id="b6a04b04-ea23-4291-a8f0-6e25efa86318" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.BookingTests" name="AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.BookingTests.AC13_Postgres_independently_rejects_each_resource_overlap(sameTechnician: True, constraint: &quot;appointment_technician_no_overlap&quot;)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="fca44282-21b8-e0f7-0e8d-96cf75202e5a">
+      <Execution id="7750a9f2-d634-4cc9-a695-a0559c5121e1" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.BookingTests" name="AC13_Postgres_independently_rejects_each_resource_overlap" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.BookingTests.AC02_Malformed_json_is_a_400_problem" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="8fe62f80-6e8a-71f5-143b-1a5380df9b69">
+      <Execution id="cdfb5bb6-50fc-4661-a495-a4d35e2b7fbf" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.BookingTests" name="AC02_Malformed_json_is_a_400_problem" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.EnvironmentTests.AC26_Unexpected_database_failure_is_500_and_emits_failed_metric_duration_and_booking_span" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="27928585-3e89-9b34-657e-4e213b4cfdb2">
+      <Execution id="2c73091d-b844-4007-a6a3-2142b2784c69" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.EnvironmentTests" name="AC26_Unexpected_database_failure_is_500_and_emits_failed_metric_duration_and_booking_span" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.EnvironmentTests.AC17_Fixture_endpoint_is_disabled_outside_permitted_demo_environment(environment: &quot;Production&quot;, enabled: True)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="20c5380a-39b9-c82c-960a-0ec8340e1804">
+      <Execution id="2b25a587-bea2-4b8c-98d6-7bd66602a1ca" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.EnvironmentTests" name="AC17_Fixture_endpoint_is_disabled_outside_permitted_demo_environment" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.EnvironmentTests.AC17_Fixture_endpoint_is_disabled_outside_permitted_demo_environment(environment: &quot;Development&quot;, enabled: False)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="bb33f6d5-3320-e864-1666-7f0cf29dea9a">
+      <Execution id="e24fd1d7-0794-47d0-af91-36ae57f58efb" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.EnvironmentTests" name="AC17_Fixture_endpoint_is_disabled_outside_permitted_demo_environment" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.BookingTests.AC07_Touching_boundaries_allow_the_same_resources" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="166e9962-12bf-ccad-63a0-388c0a6f1177">
+      <Execution id="77f63e7b-8422-4cb5-991f-11d5c9d70ada" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.BookingTests" name="AC07_Touching_boundaries_allow_the_same_resources" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.BookingTests.AC15_Stored_interval_survives_service_duration_changes" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="0790c9db-8cb3-3bf0-a445-8a12a21007dd">
+      <Execution id="9abc008a-095b-4d90-b6ef-22ec2f985afe" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.BookingTests" name="AC15_Stored_interval_survives_service_duration_changes" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: &quot;overrideTechnician&quot;, status: 400)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="59bcb25a-0add-f146-2c5d-b781a95352c6">
+      <Execution id="d5cc17ae-f8da-4e46-a947-9b8769fcf370" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.BookingTests" name="AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.EnvironmentTests.AC17_Seed_command_rejects_each_guard_before_connecting(environment: &quot;Production&quot;, enabled: &quot;true&quot;, database: &quot;keyloop_scheduler_demo&quot;)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="d2936695-d059-649d-b6fc-79c4dbbbc2d4">
+      <Execution id="d737e6de-a572-4339-a477-7808114c8a0f" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.EnvironmentTests" name="AC17_Seed_command_rejects_each_guard_before_connecting" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.FixturePersistenceTests.AC27_Missing_schema_is_not_ready_even_with_a_valid_connection" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="eae63884-03ad-077c-cbd9-c3041fa261f1">
+      <Execution id="4288915f-2641-420d-8993-e70f0c669fa1" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.FixturePersistenceTests" name="AC27_Missing_schema_is_not_ready_even_with_a_valid_connection" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.FixturePersistenceTests.AC16_Seed_core_creates_isolated_namespaces_without_removing_existing_data" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="ed0d352c-2365-b5e5-9420-2804ea2cf64e">
+      <Execution id="bc1bcc89-6c47-4f63-b738-b42b5b41e530" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.FixturePersistenceTests" name="AC16_Seed_core_creates_isolated_namespaces_without_removing_existing_data" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.BookingTests.AC04_05_06_Entire_interval_requires_both_resources_and_opening_hours(reason: &quot;noBay&quot;)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="77bb2c2b-12b1-5a1f-5c29-a18777d5da2c">
+      <Execution id="c5e68a62-3ce1-464a-841d-6bebc01eb01b" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.BookingTests" name="AC04_05_06_Entire_interval_requires_both_resources_and_opening_hours" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.EnvironmentTests.AC17_Seed_command_rejects_each_guard_before_connecting(environment: &quot;Development&quot;, enabled: &quot;true&quot;, database: &quot;keyloop_scheduler_test_forbiddenseed&quot;)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="3354923e-70ad-7dd6-a0a2-b9194f72fab6">
+      <Execution id="6721cb14-ecb2-48b7-9f59-a81a6877d5bc" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.EnvironmentTests" name="AC17_Seed_command_rejects_each_guard_before_connecting" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: &quot;vehicleId&quot;, status: 404)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="5793ab83-d933-d5a1-7cbf-693f8bb9c8aa">
+      <Execution id="f443df99-5d9c-4268-8515-f862a0f75e72" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.BookingTests" name="AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: &quot;overrideBay&quot;, status: 400)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="159ff7de-8174-5032-bd78-519d8fafc58a">
+      <Execution id="e4d40192-b9d4-48f2-9379-338b75e4f771" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.BookingTests" name="AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.BookingTests.AC01_03_08_09_Booking_persists_all_associations_across_a_new_host" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="7b6ab5da-fefb-a396-6ed2-7aa73f12db90">
+      <Execution id="1f814bd1-8edb-40d6-ae91-26aa5fb4e686" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.BookingTests" name="AC01_03_08_09_Booking_persists_all_associations_across_a_new_host" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: &quot;customerId&quot;, status: 404)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="d66e5014-0349-9b5a-7a16-5d5d66dee7a6">
+      <Execution id="3c5b804d-2a6b-4750-87e8-99d76e5a6f9a" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.BookingTests" name="AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.BookingTests.AC04_05_06_Entire_interval_requires_both_resources_and_opening_hours(reason: &quot;unqualified&quot;)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="b92dae3f-a4dc-9631-27a2-f378f1fafa81">
+      <Execution id="af4da6f5-30a5-48e2-9ff3-a5ee074911ee" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.BookingTests" name="AC04_05_06_Entire_interval_requires_both_resources_and_opening_hours" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.EnvironmentTests.AC17_Seed_command_rejects_each_guard_before_connecting(environment: &quot;Development&quot;, enabled: &quot;false&quot;, database: &quot;keyloop_scheduler_demo&quot;)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="e3ecf1ba-016b-5b6c-0c1d-a5d3d683761e">
+      <Execution id="90987914-1e1b-43e9-9d37-5869d4159f82" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.EnvironmentTests" name="AC17_Seed_command_rejects_each_guard_before_connecting" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: &quot;dealershipId&quot;, status: 404)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="8da35a74-953f-38ce-e04e-eb4c4ada2e61">
+      <Execution id="07957d73-5ea6-4886-bbd1-d0d0cb6ec60e" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.BookingTests" name="AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: &quot;overrideEnd&quot;, status: 400)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="39663bfd-08c0-dc93-36b1-c4970fa99b23">
+      <Execution id="89ce4b40-099c-44cb-87df-8005b6ba53f2" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.BookingTests" name="AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="0476251e-cede-af9d-56e1-f3ebb390244b" executionId="18eed283-ed2a-4deb-b297-c64dfad6fca5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5b0422e8-7247-10ab-5875-8eb394640662" executionId="4d5499dc-eb7f-47d5-bd1d-b8611d0d5ce8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99d5b4d4-bfd8-2619-8bc0-dfc0d7f35bef" executionId="90033133-5add-460e-84b8-a0b378f0d0b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e3ecf1ba-016b-5b6c-0c1d-a5d3d683761e" executionId="90987914-1e1b-43e9-9d37-5869d4159f82" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bea86f92-ed14-65ce-acdf-fe7f18810309" executionId="de7109be-a5bd-4525-ab4d-f008685d84ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="481cbf94-d365-05c0-3f01-c5e6ffd83d25" executionId="b4c04301-2ed8-485f-95a5-f390aebb77db" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="40c801c9-bfd2-367e-c4da-60fc76bebc0d" executionId="8c234081-0d13-4341-adea-d5bb3b324509" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0790c9db-8cb3-3bf0-a445-8a12a21007dd" executionId="9abc008a-095b-4d90-b6ef-22ec2f985afe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="159ff7de-8174-5032-bd78-519d8fafc58a" executionId="e4d40192-b9d4-48f2-9379-338b75e4f771" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8fe62f80-6e8a-71f5-143b-1a5380df9b69" executionId="cdfb5bb6-50fc-4661-a495-a4d35e2b7fbf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eae63884-03ad-077c-cbd9-c3041fa261f1" executionId="4288915f-2641-420d-8993-e70f0c669fa1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="39663bfd-08c0-dc93-36b1-c4970fa99b23" executionId="89ce4b40-099c-44cb-87df-8005b6ba53f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="80001ab7-bf93-81af-97d4-1a5c617212e7" executionId="98ff80ef-4ea6-4197-b036-13cbcdbb29b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3354923e-70ad-7dd6-a0a2-b9194f72fab6" executionId="6721cb14-ecb2-48b7-9f59-a81a6877d5bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f9c01225-440f-4504-9e6a-d266cdac2c83" executionId="c8c9f3a4-7481-43af-bced-e735dfc11cc6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b6ab5da-fefb-a396-6ed2-7aa73f12db90" executionId="1f814bd1-8edb-40d6-ae91-26aa5fb4e686" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f7ba8fe0-98ae-388e-3ccc-a51186806b80" executionId="25e1c7fd-7dee-4244-af62-a47ac93f1773" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b485a403-6d0f-77de-226b-4a6c5e456efa" executionId="6ac58e28-e3a0-4661-bb6f-d21e91e35e7a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5793ab83-d933-d5a1-7cbf-693f8bb9c8aa" executionId="f443df99-5d9c-4268-8515-f862a0f75e72" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d2936695-d059-649d-b6fc-79c4dbbbc2d4" executionId="d737e6de-a572-4339-a477-7808114c8a0f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2e827dca-1972-9da9-84a4-6da36c3cea23" executionId="24482543-3b45-409d-842c-716ee6c69bea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="26545782-09ee-b8b8-a3f7-1d7d716bee32" executionId="89638277-6d2f-4cf5-b3ce-58b0156388ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed0d352c-2365-b5e5-9420-2804ea2cf64e" executionId="bc1bcc89-6c47-4f63-b738-b42b5b41e530" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="612a5a33-f261-8300-8eb7-51ba60773186" executionId="019b537a-289d-489e-b0fa-8c60451ade4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="59bcb25a-0add-f146-2c5d-b781a95352c6" executionId="d5cc17ae-f8da-4e46-a947-9b8769fcf370" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d66e5014-0349-9b5a-7a16-5d5d66dee7a6" executionId="3c5b804d-2a6b-4750-87e8-99d76e5a6f9a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fca44282-21b8-e0f7-0e8d-96cf75202e5a" executionId="7750a9f2-d634-4cc9-a695-a0559c5121e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="20c5380a-39b9-c82c-960a-0ec8340e1804" executionId="2b25a587-bea2-4b8c-98d6-7bd66602a1ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77bb2c2b-12b1-5a1f-5c29-a18777d5da2c" executionId="c5e68a62-3ce1-464a-841d-6bebc01eb01b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8da35a74-953f-38ce-e04e-eb4c4ada2e61" executionId="07957d73-5ea6-4886-bbd1-d0d0cb6ec60e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b92dae3f-a4dc-9631-27a2-f378f1fafa81" executionId="af4da6f5-30a5-48e2-9ff3-a5ee074911ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb33f6d5-3320-e864-1666-7f0cf29dea9a" executionId="e24fd1d7-0794-47d0-af91-36ae57f58efb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e47b6b50-5b29-36ab-4444-9630df814c2f" executionId="b6a04b04-ea23-4291-a8f0-6e25efa86318" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd6f7d19-0d7a-330c-9e1a-a718ada76408" executionId="4785e35b-3347-4733-b6dc-3121b1f08b42" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4b84e696-e538-f8aa-a563-f14215665382" executionId="dd0e6dd4-5518-4e15-8cd3-7e9a0a3ea72c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="27928585-3e89-9b34-657e-4e213b4cfdb2" executionId="2c73091d-b844-4007-a6a3-2142b2784c69" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f75944cb-e46f-ae84-ceae-aa574fb5b073" executionId="f067a81b-34d5-4422-8fbe-593b49f114a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="856db419-3fdb-7bba-55ab-a7b4064afc8b" executionId="086c2d7e-df6b-4537-b318-0e1211efda70" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="166e9962-12bf-ccad-63a0-388c0a6f1177" executionId="77f63e7b-8422-4cb5-991f-11d5c9d70ada" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ffd9b5e4-6188-b261-3331-7b650c40ff36" executionId="5245ea5f-59c1-43cc-ac22-1bf5d4698934" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="40" executed="40" passed="5" failed="35" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 8.0.31)&#xD;
+[xUnit.net 00:00:02.12]   Discovering: Scheduler.IntegrationTests&#xD;
+[xUnit.net 00:00:02.44]   Discovered:  Scheduler.IntegrationTests&#xD;
+[xUnit.net 00:00:02.45]   Starting:    Scheduler.IntegrationTests&#xD;
+[xUnit.net 00:00:03.81]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.81]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.81]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.83]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.83]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.83]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.83]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.83]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.83]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.83]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.83]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.84]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.84]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.84]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.84]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.84]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.84]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.84]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.84]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.84]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.84]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.84]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.84]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.84]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.84]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.84]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.84]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.86]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.86]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.86]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.87]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.87]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.87]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.87]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.87]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.87]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.87]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.87]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.87]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.87]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.87]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.87]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.87]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.87]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.87]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.87]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.87]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.87]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.87]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.87]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.87]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.87]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.87]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.87]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.87]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.88]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.88]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.88]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.88]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.88]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.88]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.88]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.88]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.88]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.88]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.88]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.88]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.88]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.88]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.88]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.88]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.88]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.89]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.89]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.89]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.89]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.89]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.89]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.89]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.89]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.89]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.89]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.89]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.89]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.89]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.89]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.89]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.90]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.90]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.90]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.90]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.90]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.90]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.90]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.90]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.90]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:03.90]       System.InvalidOperationException : Real PostgreSQL prerequisite unavailable: set ConnectionStrings__SchedulerTestDb to an isolated keyloop_scheduler_test_&lt;run-id&gt; database.&#xD;
+[xUnit.net 00:00:03.90]       Stack Trace:&#xD;
+[xUnit.net 00:00:03.90]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(27,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+info: Microsoft.Hosting.Lifetime[14]&#xD;
+      Now listening on: http://localhost:5080&#xD;
+info: Microsoft.Hosting.Lifetime[14]&#xD;
+      Now listening on: http://localhost:5080&#xD;
+info: Microsoft.Hosting.Lifetime[14]&#xD;
+      Now listening on: http://localhost:5080&#xD;
+info: Scheduler.Infrastructure.SchedulingService[0]&#xD;
+      Booking rejected; dealership f6af2da3-244e-4454-ae38-5b6f48ff46ca; service 8b06b4d3-e2a2-43e9-90b6-ad2b14851ebc; elapsed 1990.5139; trace 6ae2a604585c50505773c264f08ab365&#xD;
+[xUnit.net 00:00:08.72]       Assert.Equal() Failure: Values differ&#xD;
+[xUnit.net 00:00:08.73]       Expected: InternalServerError&#xD;
+[xUnit.net 00:00:08.73]       Actual:   NotFound&#xD;
+[xUnit.net 00:00:08.73]       Stack Trace:&#xD;
+[xUnit.net 00:00:08.73]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\EnvironmentTests.cs(53,0): at Scheduler.IntegrationTests.EnvironmentTests.AC26_Unexpected_database_failure_is_500_and_emits_failed_metric_duration_and_booking_span()&#xD;
+[xUnit.net 00:00:08.73]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\EnvironmentTests.cs(60,0): at Scheduler.IntegrationTests.EnvironmentTests.AC26_Unexpected_database_failure_is_500_and_emits_failed_metric_duration_and_booking_span()&#xD;
+[xUnit.net 00:00:08.73]         --- End of stack trace from previous location ---&#xD;
+info: Microsoft.Hosting.Lifetime[14]&#xD;
+      Now listening on: http://localhost:5080&#xD;
+[xUnit.net 00:00:20.13]       Assert.Equal() Failure: Values differ&#xD;
+[xUnit.net 00:00:20.13]       Expected: ServiceUnavailable&#xD;
+[xUnit.net 00:00:20.13]       Actual:   OK&#xD;
+[xUnit.net 00:00:20.13]       Stack Trace:&#xD;
+[xUnit.net 00:00:20.13]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\EnvironmentTests.cs(70,0): at Scheduler.IntegrationTests.EnvironmentTests.AC27_Database_unavailable_returns_503_but_process_remains_live()&#xD;
+[xUnit.net 00:00:20.13]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\EnvironmentTests.cs(70,0): at Scheduler.IntegrationTests.EnvironmentTests.AC27_Database_unavailable_returns_503_but_process_remains_live()&#xD;
+[xUnit.net 00:00:20.13]         --- End of stack trace from previous location ---&#xD;
+[xUnit.net 00:00:20.14]   Finished:    Scheduler.IntegrationTests&#xD;
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:27.9304617+07:00">
+        <Text>[xUnit.net 00:00:03.81]     Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: "serviceTypeId", status: 404) [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:27.9310996+07:00">
+        <Text>[xUnit.net 00:00:03.83]     Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: "customerId", status: 404) [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:27.9322518+07:00">
+        <Text>[xUnit.net 00:00:03.83]     Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: "invalidDate", status: 400) [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:27.9336421+07:00">
+        <Text>[xUnit.net 00:00:03.83]     Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: "past", status: 400) [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:27.9346923+07:00">
+        <Text>[xUnit.net 00:00:03.84]     Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: "vehicleId", status: 404) [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:27.9363926+07:00">
+        <Text>[xUnit.net 00:00:03.84]     Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: "ownership", status: 400) [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:27.9372588+07:00">
+        <Text>[xUnit.net 00:00:03.84]     Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: "dealershipId", status: 404) [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:27.9384523+07:00">
+        <Text>[xUnit.net 00:00:03.84]     Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: "offsetless", status: 400) [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:27.9398033+07:00">
+        <Text>[xUnit.net 00:00:03.84]     Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: "overrideBay", status: 400) [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:28.0055899+07:00">
+        <Text>[xUnit.net 00:00:03.86]     Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: "missingVehicle", status: 400) [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:28.0057084+07:00">
+        <Text>[xUnit.net 00:00:03.87]     Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: "emptyId", status: 400) [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:28.0058074+07:00">
+        <Text>[xUnit.net 00:00:03.87]     Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: "overrideEnd", status: 400) [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:28.0060617+07:00">
+        <Text>[xUnit.net 00:00:03.87]     Scheduler.IntegrationTests.BookingTests.AC01_02_14_Invalid_requests_return_problem_details_and_do_not_write(problem: "overrideTechnician", status: 400) [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:28.0063605+07:00">
+        <Text>[xUnit.net 00:00:03.87]     Scheduler.IntegrationTests.BookingTests.AC02_Malformed_json_is_a_400_problem [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:28.0067647+07:00">
+        <Text>[xUnit.net 00:00:03.87]     Scheduler.IntegrationTests.BookingTests.AC12_Advisory_availability_does_not_reserve_capacity [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:28.0069795+07:00">
+        <Text>[xUnit.net 00:00:03.87]     Scheduler.IntegrationTests.BookingTests.AC10_11_Concurrent_clients_use_all_and_only_available_capacity(capacity: 2, requests: 20) [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:28.0071427+07:00">
+        <Text>[xUnit.net 00:00:03.87]     Scheduler.IntegrationTests.BookingTests.AC10_11_Concurrent_clients_use_all_and_only_available_capacity(capacity: 1, requests: 20) [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:28.0075542+07:00">
+        <Text>[xUnit.net 00:00:03.87]     Scheduler.IntegrationTests.BookingTests.AC04_05_06_Entire_interval_requires_both_resources_and_opening_hours(reason: "beforeOpening") [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:28.0133423+07:00">
+        <Text>[xUnit.net 00:00:03.87]     Scheduler.IntegrationTests.BookingTests.AC04_05_06_Entire_interval_requires_both_resources_and_opening_hours(reason: "unqualified") [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:28.0135259+07:00">
+        <Text>[xUnit.net 00:00:03.88]     Scheduler.IntegrationTests.BookingTests.AC04_05_06_Entire_interval_requires_both_resources_and_opening_hours(reason: "closing") [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:28.0136569+07:00">
+        <Text>[xUnit.net 00:00:03.88]     Scheduler.IntegrationTests.BookingTests.AC04_05_06_Entire_interval_requires_both_resources_and_opening_hours(reason: "shortBayWindow") [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:28.0137711+07:00">
+        <Text>[xUnit.net 00:00:03.88]     Scheduler.IntegrationTests.BookingTests.AC04_05_06_Entire_interval_requires_both_resources_and_opening_hours(reason: "shortTechnicianWindow") [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:28.0138916+07:00">
+        <Text>[xUnit.net 00:00:03.88]     Scheduler.IntegrationTests.BookingTests.AC04_05_06_Entire_interval_requires_both_resources_and_opening_hours(reason: "noBay") [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:28.0139803+07:00">
+        <Text>[xUnit.net 00:00:03.88]     Scheduler.IntegrationTests.BookingTests.AC13_Postgres_independently_rejects_each_resource_overlap(sameTechnician: True, constraint: "appointment_technician_no_overlap") [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:28.0140676+07:00">
+        <Text>[xUnit.net 00:00:03.89]     Scheduler.IntegrationTests.BookingTests.AC13_Postgres_independently_rejects_each_resource_overlap(sameTechnician: False, constraint: "appointment_bay_no_overlap") [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:28.0141720+07:00">
+        <Text>[xUnit.net 00:00:03.89]     Scheduler.IntegrationTests.BookingTests.AC15_Stored_interval_survives_service_duration_changes [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:28.0142648+07:00">
+        <Text>[xUnit.net 00:00:03.89]     Scheduler.IntegrationTests.BookingTests.AC01_03_08_09_Booking_persists_all_associations_across_a_new_host [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:28.0211973+07:00">
+        <Text>[xUnit.net 00:00:03.89]     Scheduler.IntegrationTests.BookingTests.AC06_Only_one_resource_overlapping_later_in_the_interval_blocks_booking(occupiedBay: False) [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:28.0215160+07:00">
+        <Text>[xUnit.net 00:00:03.89]     Scheduler.IntegrationTests.BookingTests.AC06_Only_one_resource_overlapping_later_in_the_interval_blocks_booking(occupiedBay: True) [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:28.0216463+07:00">
+        <Text>[xUnit.net 00:00:03.89]     Scheduler.IntegrationTests.BookingTests.AC07_Touching_boundaries_allow_the_same_resources [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:28.0217677+07:00">
+        <Text>[xUnit.net 00:00:03.90]     Scheduler.IntegrationTests.BookingTests.AC14_Equivalent_explicit_offsets_share_the_same_UTC_interval [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:28.0218584+07:00">
+        <Text>[xUnit.net 00:00:03.90]     Scheduler.IntegrationTests.FixturePersistenceTests.AC27_Missing_schema_is_not_ready_even_with_a_valid_connection [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:28.0219434+07:00">
+        <Text>[xUnit.net 00:00:03.90]     Scheduler.IntegrationTests.FixturePersistenceTests.AC16_Seed_core_creates_isolated_namespaces_without_removing_existing_data [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:32.8073423+07:00">
+        <Text>[xUnit.net 00:00:08.72]     Scheduler.IntegrationTests.EnvironmentTests.AC26_Unexpected_database_failure_is_500_and_emits_failed_metric_duration_and_booking_span [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-27T14:29:44.2092318+07:00">
+        <Text>[xUnit.net 00:00:20.13]     Scheduler.IntegrationTests.EnvironmentTests.AC27_Database_unavailable_returns_503_but_process_remains_live [FAIL]</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>

@@ -1,0 +1,14 @@
+Reviewers: start with README.md for Docker setup, tests, architecture and API examples.
+AI maintainers: read AI-Usage.md, AGENTS.md, docs/agent-team/PROJECT.md and
+ORCHESTRATOR.md. Keep workflow history separate from the reviewer guide.
+
+Current scope (2026-10-29): backend only. Frontend and simulator removed at the
+user's request; Swagger/OpenAPI and docs/api-demo.http are the Part 2 client
+substitute. Do not recreate the removed clients or restart completed backend work.
+
+Latest test environment evidence: docs/agent-team/runs/reviewer-compose-tests/.
+Reviewer startup evidence: docs/agent-team/runs/reviewer-simple-setup/.
+Backend implementation evidence: docs/agent-team/runs/backend-architecture-implementation/.
+Docker setup evidence: docs/agent-team/runs/reviewer-docker/.
+Local reviewer startup includes demo JWT accounts; an external identity provider
+is optional for this local path. The final recorded video remains a user input.

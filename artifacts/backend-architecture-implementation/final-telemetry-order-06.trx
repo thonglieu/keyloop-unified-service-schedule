@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="ffea2459-e9d8-40a9-a9e8-518394de547f" name="X1@THONG-LIEU 2026-10-28 13:39:53" runUser="THONG-LIEU\CodexSandboxOffline" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-28T13:39:53.2758297+07:00" queuing="2026-10-28T13:39:53.2758300+07:00" start="2026-10-28T13:39:50.4181893+07:00" finish="2026-10-28T13:39:53.3323447+07:00" />
+  <TestSettings name="default" id="4b73d1fd-b54d-4786-b0e4-9e7f8c21e392">
+    <Deployment runDeploymentRoot="X1_THONG-LIEU_2026-10-28_13_39_53" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="bf05f5c1-56a9-4aec-9a44-fac1115112a4" testId="fb799bd2-d0fe-f7ae-020e-3586363d48a0" testName="Scheduler.IntegrationTests.ApplicationBehaviorTests.DATA01_EVT01_Cancellation_after_save_prevents_commit_and_dispatch" computerName="THONG-LIEU" duration="00:00:00.0011781" startTime="2026-10-28T13:39:53.2648439+07:00" endTime="2026-10-28T13:39:53.2648440+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf05f5c1-56a9-4aec-9a44-fac1115112a4" />
+    <UnitTestResult executionId="a674d1f3-a2b4-41c7-b029-5c7306ec1ebf" testId="1c52fa90-8c7e-a1d4-329c-610b77420f09" testName="Scheduler.IntegrationTests.ApplicationBehaviorTests.API01_Invalid_shape_is_rejected_before_transaction_or_identity_lookup" computerName="THONG-LIEU" duration="00:00:00.0007114" startTime="2026-10-28T13:39:53.2494108+07:00" endTime="2026-10-28T13:39:53.2494109+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a674d1f3-a2b4-41c7-b029-5c7306ec1ebf" />
+    <UnitTestResult executionId="e3e75669-3dbd-4013-8d36-34af9b675dc4" testId="e8769915-7913-1571-0278-098efabe8bba" testName="Scheduler.IntegrationTests.ApplicationBehaviorTests.SEC02_Direct_booking_rejects_unauthenticated_and_unknown_roles_before_storage(authenticated: True, admin: False, customer: False, status: 403)" computerName="THONG-LIEU" duration="00:00:00.0005389" startTime="2026-10-28T13:39:53.2595099+07:00" endTime="2026-10-28T13:39:53.2595099+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3e75669-3dbd-4013-8d36-34af9b675dc4" />
+    <UnitTestResult executionId="24ad9437-a352-4408-b330-1d2cbe964ce2" testId="08854eea-ab31-6b27-0b0d-bf717214b5fc" testName="Scheduler.IntegrationTests.ApplicationBehaviorTests.Q04_EVT01_Exhausted_candidates_return_conflict_without_reusing_pair_or_publishing" computerName="THONG-LIEU" duration="00:00:00.0029619" startTime="2026-10-28T13:39:53.2678877+07:00" endTime="2026-10-28T13:39:53.2678879+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="24ad9437-a352-4408-b330-1d2cbe964ce2" />
+    <UnitTestResult executionId="12d2d5f2-745e-497c-b426-49bfdeb5130e" testId="927e5287-1f37-966f-38d5-672f353f4810" testName="Scheduler.IntegrationTests.ApplicationBehaviorTests.EVT01_Throwing_metric_observer_cannot_reverse_known_commit(instrumentName: &quot;scheduler.booking.diagnostic_failures&quot;)" computerName="THONG-LIEU" duration="00:00:00.0002552" startTime="2026-10-28T13:39:53.2570868+07:00" endTime="2026-10-28T13:39:53.2570869+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12d2d5f2-745e-497c-b426-49bfdeb5130e" />
+    <UnitTestResult executionId="c72c56b3-62da-4599-8b66-a082954c6be9" testId="d8c5a658-4ae3-fdda-cb2a-4e0cc0246fe7" testName="Scheduler.IntegrationTests.ApplicationBehaviorTests.API01_Empty_query_ids_do_not_query_identity_or_storage(operation: &quot;vehicles&quot;)" computerName="THONG-LIEU" duration="00:00:00.0000359" startTime="2026-10-28T13:39:53.2594814+07:00" endTime="2026-10-28T13:39:53.2594814+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c72c56b3-62da-4599-8b66-a082954c6be9" />
+    <UnitTestResult executionId="888fd2d9-9f28-42c7-8fab-c8370519d852" testId="399256c4-e713-62bf-a574-09b55c55b8af" testName="Scheduler.IntegrationTests.ApplicationBehaviorTests.API01_Empty_query_ids_do_not_query_identity_or_storage(operation: &quot;list&quot;)" computerName="THONG-LIEU" duration="00:00:00.0005047" startTime="2026-10-28T13:39:53.2584263+07:00" endTime="2026-10-28T13:39:53.2584264+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="888fd2d9-9f28-42c7-8fab-c8370519d852" />
+    <UnitTestResult executionId="1b9ef317-1849-415a-8d77-2a577e1ce37a" testId="e7f19379-eccd-fec6-3383-cbb508d7ce24" testName="Scheduler.IntegrationTests.ApplicationBehaviorTests.EVT01_Throwing_activity_stop_observer_cannot_reverse_known_commit" computerName="THONG-LIEU" duration="00:00:00.0011354" startTime="2026-10-28T13:39:53.2560513+07:00" endTime="2026-10-28T13:39:53.2560513+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b9ef317-1849-415a-8d77-2a577e1ce37a" />
+    <UnitTestResult executionId="6a87312c-a23e-4321-910c-d18fb3e98859" testId="205abf0c-6be0-4d40-44d7-1e206b318be4" testName="Scheduler.IntegrationTests.ApplicationBehaviorTests.SEC02_Direct_query_handlers_enforce_owner_scope_and_admin_policy(operation: &quot;list&quot;, expected: 403)" computerName="THONG-LIEU" duration="00:00:00.0023129" startTime="2026-10-28T13:39:53.2447189+07:00" endTime="2026-10-28T13:39:53.2447191+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a87312c-a23e-4321-910c-d18fb3e98859" />
+    <UnitTestResult executionId="2c7462fa-56f8-4805-b9b2-077dd3aabf81" testId="d155a813-74f2-03e7-672b-ff3dff12f582" testName="Scheduler.IntegrationTests.ApplicationBehaviorTests.SEC02_Direct_query_handlers_enforce_owner_scope_and_admin_policy(operation: &quot;get&quot;, expected: 404)" computerName="THONG-LIEU" duration="00:00:00.0020492" startTime="2026-10-28T13:39:53.2478293+07:00" endTime="2026-10-28T13:39:53.2478294+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c7462fa-56f8-4805-b9b2-077dd3aabf81" />
+    <UnitTestResult executionId="5f7fa58f-82e3-4895-aabe-fad6c552ead2" testId="0a4cf8e9-f9f0-c3ed-347e-ccda59e16661" testName="Scheduler.IntegrationTests.ApplicationBehaviorTests.EVT01_Success_commits_and_disposes_before_publishing_matching_event" computerName="THONG-LIEU" duration="00:00:00.0041319" startTime="2026-10-28T13:39:53.2560932+07:00" endTime="2026-10-28T13:39:53.2560932+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f7fa58f-82e3-4895-aabe-fad6c552ead2" />
+    <UnitTestResult executionId="6b7b4055-c735-41fd-9e85-c40fc375444f" testId="19f75f9a-384c-182d-5f57-ff7a8ae4d45d" testName="Scheduler.IntegrationTests.ApplicationBehaviorTests.SEC02_Customer_cannot_spoof_customer_ID" computerName="THONG-LIEU" duration="00:00:00.0006001" startTime="2026-10-28T13:39:53.2561203+07:00" endTime="2026-10-28T13:39:53.2561203+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6b7b4055-c735-41fd-9e85-c40fc375444f" />
+    <UnitTestResult executionId="6d379b19-7c4c-440f-8ee6-eb32a03bee4b" testId="0e771649-72b0-a08f-3651-26eb12e23181" testName="Scheduler.IntegrationTests.ApplicationBehaviorTests.EVT01_Known_commit_cleanup_failure_preserves_success" computerName="THONG-LIEU" duration="00:00:00.0006160" startTime="2026-10-28T13:39:53.2561459+07:00" endTime="2026-10-28T13:39:53.2561460+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d379b19-7c4c-440f-8ee6-eb32a03bee4b" />
+    <UnitTestResult executionId="00e6eef0-7aa1-441c-a779-8287da649bac" testId="582ab4a3-6abd-cd98-254d-fcbbab1cb901" testName="Scheduler.IntegrationTests.ApplicationBehaviorTests.ARCH03_SEC02_Advisory_query_requires_role_but_no_mapping_or_command_side_effects" computerName="THONG-LIEU" duration="00:00:00.0021346" startTime="2026-10-28T13:39:53.2423940+07:00" endTime="2026-10-28T13:39:53.2423941+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="00e6eef0-7aa1-441c-a779-8287da649bac" />
+    <UnitTestResult executionId="bcadbec8-6033-44b3-bf88-054e7bbd481b" testId="3f1251a8-5cc5-37aa-b9f0-de5383815518" testName="Scheduler.IntegrationTests.EnvironmentTests.API01_Known_database_unavailability_is_503_and_emits_failed_metric_duration_and_booking_span" computerName="THONG-LIEU" duration="00:00:02.0981203" startTime="2026-10-28T13:39:53.2254562+07:00" endTime="2026-10-28T13:39:53.2254674+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bcadbec8-6033-44b3-bf88-054e7bbd481b" />
+    <UnitTestResult executionId="816b742a-19ee-4c10-acd0-3990f747d23b" testId="aad4841e-bd5c-93df-de31-5b9192f4958c" testName="Scheduler.IntegrationTests.ApplicationBehaviorTests.EVT01_Dispatcher_failure_preserves_committed_confirmation" computerName="THONG-LIEU" duration="00:00:00.0004411" startTime="2026-10-28T13:39:53.2629684+07:00" endTime="2026-10-28T13:39:53.2629685+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="816b742a-19ee-4c10-acd0-3990f747d23b" />
+    <UnitTestResult executionId="83536022-2d8f-41c1-a084-791431d38b0e" testId="81018891-c74e-dd3f-2540-9c05e532dd8a" testName="Scheduler.IntegrationTests.ApplicationBehaviorTests.DATA01_EVT01_Exclusion_retry_uses_fresh_transaction_aggregate_and_alternate_pair" computerName="THONG-LIEU" duration="00:00:00.0015433" startTime="2026-10-28T13:39:53.2624198+07:00" endTime="2026-10-28T13:39:53.2624199+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="83536022-2d8f-41c1-a084-791431d38b0e" />
+    <UnitTestResult executionId="19d11708-8575-4d93-b983-a5d6d5354da5" testId="a95b1bd5-679c-8f93-8a53-cb72ed110e82" testName="Scheduler.IntegrationTests.ApplicationBehaviorTests.SEC02_Direct_query_handlers_enforce_owner_scope_and_admin_policy(operation: &quot;customers&quot;, expected: 403)" computerName="THONG-LIEU" duration="00:00:00.0001466" startTime="2026-10-28T13:39:53.2456804+07:00" endTime="2026-10-28T13:39:53.2456805+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="19d11708-8575-4d93-b983-a5d6d5354da5" />
+    <UnitTestResult executionId="dd32fbb4-86e6-41bf-9e86-6dced5998031" testId="18a10f5c-367b-2a07-03cf-6fa54c3adadf" testName="Scheduler.IntegrationTests.ApplicationBehaviorTests.EVT01_Throwing_metric_observer_cannot_reverse_known_commit(instrumentName: &quot;scheduler.booking.duration&quot;)" computerName="THONG-LIEU" duration="00:00:00.0006401" startTime="2026-10-28T13:39:53.2567819+07:00" endTime="2026-10-28T13:39:53.2567820+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd32fbb4-86e6-41bf-9e86-6dced5998031" />
+    <UnitTestResult executionId="fb56ebd0-7e8c-40dc-afe2-568d52bdc524" testId="06259b40-4c4e-6127-9c1f-7d7bc40c9e66" testName="Scheduler.IntegrationTests.ApplicationBehaviorTests.DATA01_EVT01_Save_failure_disposes_without_commit_or_event" computerName="THONG-LIEU" duration="00:00:00.0005210" startTime="2026-10-28T13:39:53.2608801+07:00" endTime="2026-10-28T13:39:53.2608802+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb56ebd0-7e8c-40dc-afe2-568d52bdc524" />
+    <UnitTestResult executionId="a129bf1b-4d60-414e-a439-0a5fa3eb8964" testId="c4e4b582-3832-5982-c237-bd8ceeb3a6cb" testName="Scheduler.IntegrationTests.ApplicationBehaviorTests.SEC02_Customer_vehicle_lookup_is_scoped_and_missing_is_concealed" computerName="THONG-LIEU" duration="00:00:00.0007388" startTime="2026-10-28T13:39:53.2486183+07:00" endTime="2026-10-28T13:39:53.2486184+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a129bf1b-4d60-414e-a439-0a5fa3eb8964" />
+    <UnitTestResult executionId="7ebb59ba-3941-4449-bed1-777e269b1408" testId="1e47c672-7f71-d60b-bea6-3fed7f14c972" testName="Scheduler.IntegrationTests.ApplicationBehaviorTests.SEC02_Direct_query_handlers_enforce_owner_scope_and_admin_policy(operation: &quot;vehicles&quot;, expected: 404)" computerName="THONG-LIEU" duration="00:00:00.0006878" startTime="2026-10-28T13:39:53.2455284+07:00" endTime="2026-10-28T13:39:53.2455286+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ebb59ba-3941-4449-bed1-777e269b1408" />
+    <UnitTestResult executionId="1705459a-503e-4f61-ae42-5292e11833b7" testId="45078466-9349-90dd-d9fc-ea4ed1ad7606" testName="Scheduler.IntegrationTests.ApplicationBehaviorTests.Q04_EVT01_Capacity_consumed_while_waiting_for_allocation_uses_fresh_attempt" computerName="THONG-LIEU" duration="00:00:00.0006479" startTime="2026-10-28T13:39:53.2602075+07:00" endTime="2026-10-28T13:39:53.2602076+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1705459a-503e-4f61-ae42-5292e11833b7" />
+    <UnitTestResult executionId="02bd0fd9-6075-48aa-9407-d72285afb20f" testId="abf1c97f-476f-9e82-650e-2df1448396d8" testName="Scheduler.IntegrationTests.ApplicationBehaviorTests.SEC02_Direct_booking_rejects_unauthenticated_and_unknown_roles_before_storage(authenticated: False, admin: False, customer: False, status: 401)" computerName="THONG-LIEU" duration="00:00:00.0002511" startTime="2026-10-28T13:39:53.2595299+07:00" endTime="2026-10-28T13:39:53.2595300+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="02bd0fd9-6075-48aa-9407-d72285afb20f" />
+    <UnitTestResult executionId="751666fd-0357-4c5e-82a2-8a72068e8580" testId="bfdc3a7e-2607-33eb-e4df-a4417b1c46a3" testName="Scheduler.IntegrationTests.ApplicationBehaviorTests.Q04_Finite_candidate_retry_does_not_abandon_available_pair_after_128_losses" computerName="THONG-LIEU" duration="00:00:00.0115358" startTime="2026-10-28T13:39:53.2402193+07:00" endTime="2026-10-28T13:39:53.2402195+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="751666fd-0357-4c5e-82a2-8a72068e8580" />
+    <UnitTestResult executionId="ca7fbf7a-bd4a-4dc9-83f9-7ffd52bafc08" testId="9a7b1aad-b846-6b5a-3c89-e1b5eac3f30a" testName="Scheduler.IntegrationTests.ApplicationBehaviorTests.API01_Empty_query_ids_do_not_query_identity_or_storage(operation: &quot;get&quot;)" computerName="THONG-LIEU" duration="00:00:00.0001600" startTime="2026-10-28T13:39:53.2594527+07:00" endTime="2026-10-28T13:39:53.2594528+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ca7fbf7a-bd4a-4dc9-83f9-7ffd52bafc08" />
+    <UnitTestResult executionId="c17c4690-29ac-4b33-9738-994bc1b07743" testId="357d880d-ca6f-e8b2-6517-9950d0cc87be" testName="Scheduler.IntegrationTests.ApplicationBehaviorTests.EVT01_Throwing_metric_observer_cannot_reverse_known_commit(instrumentName: &quot;scheduler.bookings&quot;)" computerName="THONG-LIEU" duration="00:00:00.0000911" startTime="2026-10-28T13:39:53.2571581+07:00" endTime="2026-10-28T13:39:53.2571581+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c17c4690-29ac-4b33-9738-994bc1b07743" />
+    <UnitTestResult executionId="e0e5504a-5b1a-492c-9359-be4ad1e36650" testId="eab6b1da-43e5-54e4-2b7d-f186c92585b3" testName="Scheduler.IntegrationTests.ApplicationBehaviorTests.DATA01_EVT01_Unknown_commit_failure_never_retries_or_dispatches" computerName="THONG-LIEU" duration="00:00:00.0005957" startTime="2026-10-28T13:39:53.2578736+07:00" endTime="2026-10-28T13:39:53.2578737+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e0e5504a-5b1a-492c-9359-be4ad1e36650" />
+    <UnitTestResult executionId="25ae102b-fb12-4dfc-b1eb-237fa813ca43" testId="1877f252-04f2-5447-577b-5ea666641d13" testName="Scheduler.IntegrationTests.ApplicationBehaviorTests.SEC02_Unmapped_customer_is_denied_but_admin_needs_no_mapping" computerName="THONG-LIEU" duration="00:00:00.0005888" startTime="2026-10-28T13:39:53.2636094+07:00" endTime="2026-10-28T13:39:53.2636095+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25ae102b-fb12-4dfc-b1eb-237fa813ca43" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Scheduler.IntegrationTests.EnvironmentTests.API01_Known_database_unavailability_is_503_and_emits_failed_metric_duration_and_booking_span" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="3f1251a8-5cc5-37aa-b9f0-de5383815518">
+      <Execution id="bcadbec8-6033-44b3-bf88-054e7bbd481b" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.EnvironmentTests" name="API01_Known_database_unavailability_is_503_and_emits_failed_metric_duration_and_booking_span" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.ApplicationBehaviorTests.Q04_EVT01_Capacity_consumed_while_waiting_for_allocation_uses_fresh_attempt" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="45078466-9349-90dd-d9fc-ea4ed1ad7606">
+      <Execution id="1705459a-503e-4f61-ae42-5292e11833b7" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.ApplicationBehaviorTests" name="Q04_EVT01_Capacity_consumed_while_waiting_for_allocation_uses_fresh_attempt" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.ApplicationBehaviorTests.SEC02_Direct_booking_rejects_unauthenticated_and_unknown_roles_before_storage(authenticated: True, admin: False, customer: False, status: 403)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="e8769915-7913-1571-0278-098efabe8bba">
+      <Execution id="e3e75669-3dbd-4013-8d36-34af9b675dc4" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.ApplicationBehaviorTests" name="SEC02_Direct_booking_rejects_unauthenticated_and_unknown_roles_before_storage" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.ApplicationBehaviorTests.EVT01_Throwing_metric_observer_cannot_reverse_known_commit(instrumentName: &quot;scheduler.booking.duration&quot;)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="18a10f5c-367b-2a07-03cf-6fa54c3adadf">
+      <Execution id="dd32fbb4-86e6-41bf-9e86-6dced5998031" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.ApplicationBehaviorTests" name="EVT01_Throwing_metric_observer_cannot_reverse_known_commit" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.ApplicationBehaviorTests.SEC02_Direct_query_handlers_enforce_owner_scope_and_admin_policy(operation: &quot;list&quot;, expected: 403)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="205abf0c-6be0-4d40-44d7-1e206b318be4">
+      <Execution id="6a87312c-a23e-4321-910c-d18fb3e98859" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.ApplicationBehaviorTests" name="SEC02_Direct_query_handlers_enforce_owner_scope_and_admin_policy" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.ApplicationBehaviorTests.SEC02_Direct_query_handlers_enforce_owner_scope_and_admin_policy(operation: &quot;get&quot;, expected: 404)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="d155a813-74f2-03e7-672b-ff3dff12f582">
+      <Execution id="2c7462fa-56f8-4805-b9b2-077dd3aabf81" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.ApplicationBehaviorTests" name="SEC02_Direct_query_handlers_enforce_owner_scope_and_admin_policy" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.ApplicationBehaviorTests.DATA01_EVT01_Save_failure_disposes_without_commit_or_event" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="06259b40-4c4e-6127-9c1f-7d7bc40c9e66">
+      <Execution id="fb56ebd0-7e8c-40dc-afe2-568d52bdc524" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.ApplicationBehaviorTests" name="DATA01_EVT01_Save_failure_disposes_without_commit_or_event" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.ApplicationBehaviorTests.SEC02_Direct_query_handlers_enforce_owner_scope_and_admin_policy(operation: &quot;customers&quot;, expected: 403)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="a95b1bd5-679c-8f93-8a53-cb72ed110e82">
+      <Execution id="19d11708-8575-4d93-b983-a5d6d5354da5" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.ApplicationBehaviorTests" name="SEC02_Direct_query_handlers_enforce_owner_scope_and_admin_policy" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.ApplicationBehaviorTests.API01_Invalid_shape_is_rejected_before_transaction_or_identity_lookup" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="1c52fa90-8c7e-a1d4-329c-610b77420f09">
+      <Execution id="a674d1f3-a2b4-41c7-b029-5c7306ec1ebf" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.ApplicationBehaviorTests" name="API01_Invalid_shape_is_rejected_before_transaction_or_identity_lookup" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.ApplicationBehaviorTests.SEC02_Customer_cannot_spoof_customer_ID" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="19f75f9a-384c-182d-5f57-ff7a8ae4d45d">
+      <Execution id="6b7b4055-c735-41fd-9e85-c40fc375444f" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.ApplicationBehaviorTests" name="SEC02_Customer_cannot_spoof_customer_ID" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.ApplicationBehaviorTests.SEC02_Direct_booking_rejects_unauthenticated_and_unknown_roles_before_storage(authenticated: False, admin: False, customer: False, status: 401)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="abf1c97f-476f-9e82-650e-2df1448396d8">
+      <Execution id="02bd0fd9-6075-48aa-9407-d72285afb20f" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.ApplicationBehaviorTests" name="SEC02_Direct_booking_rejects_unauthenticated_and_unknown_roles_before_storage" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.ApplicationBehaviorTests.SEC02_Unmapped_customer_is_denied_but_admin_needs_no_mapping" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="1877f252-04f2-5447-577b-5ea666641d13">
+      <Execution id="25ae102b-fb12-4dfc-b1eb-237fa813ca43" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.ApplicationBehaviorTests" name="SEC02_Unmapped_customer_is_denied_but_admin_needs_no_mapping" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.ApplicationBehaviorTests.DATA01_EVT01_Unknown_commit_failure_never_retries_or_dispatches" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="eab6b1da-43e5-54e4-2b7d-f186c92585b3">
+      <Execution id="e0e5504a-5b1a-492c-9359-be4ad1e36650" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.ApplicationBehaviorTests" name="DATA01_EVT01_Unknown_commit_failure_never_retries_or_dispatches" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.ApplicationBehaviorTests.SEC02_Customer_vehicle_lookup_is_scoped_and_missing_is_concealed" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="c4e4b582-3832-5982-c237-bd8ceeb3a6cb">
+      <Execution id="a129bf1b-4d60-414e-a439-0a5fa3eb8964" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.ApplicationBehaviorTests" name="SEC02_Customer_vehicle_lookup_is_scoped_and_missing_is_concealed" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.ApplicationBehaviorTests.EVT01_Throwing_activity_stop_observer_cannot_reverse_known_commit" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="e7f19379-eccd-fec6-3383-cbb508d7ce24">
+      <Execution id="1b9ef317-1849-415a-8d77-2a577e1ce37a" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.ApplicationBehaviorTests" name="EVT01_Throwing_activity_stop_observer_cannot_reverse_known_commit" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.ApplicationBehaviorTests.EVT01_Throwing_metric_observer_cannot_reverse_known_commit(instrumentName: &quot;scheduler.booking.diagnostic_failures&quot;)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="927e5287-1f37-966f-38d5-672f353f4810">
+      <Execution id="12d2d5f2-745e-497c-b426-49bfdeb5130e" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.ApplicationBehaviorTests" name="EVT01_Throwing_metric_observer_cannot_reverse_known_commit" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.ApplicationBehaviorTests.DATA01_EVT01_Cancellation_after_save_prevents_commit_and_dispatch" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="fb799bd2-d0fe-f7ae-020e-3586363d48a0">
+      <Execution id="bf05f5c1-56a9-4aec-9a44-fac1115112a4" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.ApplicationBehaviorTests" name="DATA01_EVT01_Cancellation_after_save_prevents_commit_and_dispatch" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.ApplicationBehaviorTests.EVT01_Dispatcher_failure_preserves_committed_confirmation" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="aad4841e-bd5c-93df-de31-5b9192f4958c">
+      <Execution id="816b742a-19ee-4c10-acd0-3990f747d23b" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.ApplicationBehaviorTests" name="EVT01_Dispatcher_failure_preserves_committed_confirmation" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.ApplicationBehaviorTests.Q04_Finite_candidate_retry_does_not_abandon_available_pair_after_128_losses" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="bfdc3a7e-2607-33eb-e4df-a4417b1c46a3">
+      <Execution id="751666fd-0357-4c5e-82a2-8a72068e8580" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.ApplicationBehaviorTests" name="Q04_Finite_candidate_retry_does_not_abandon_available_pair_after_128_losses" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.ApplicationBehaviorTests.API01_Empty_query_ids_do_not_query_identity_or_storage(operation: &quot;vehicles&quot;)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="d8c5a658-4ae3-fdda-cb2a-4e0cc0246fe7">
+      <Execution id="c72c56b3-62da-4599-8b66-a082954c6be9" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.ApplicationBehaviorTests" name="API01_Empty_query_ids_do_not_query_identity_or_storage" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.ApplicationBehaviorTests.SEC02_Direct_query_handlers_enforce_owner_scope_and_admin_policy(operation: &quot;vehicles&quot;, expected: 404)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="1e47c672-7f71-d60b-bea6-3fed7f14c972">
+      <Execution id="7ebb59ba-3941-4449-bed1-777e269b1408" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.ApplicationBehaviorTests" name="SEC02_Direct_query_handlers_enforce_owner_scope_and_admin_policy" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.ApplicationBehaviorTests.EVT01_Known_commit_cleanup_failure_preserves_success" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="0e771649-72b0-a08f-3651-26eb12e23181">
+      <Execution id="6d379b19-7c4c-440f-8ee6-eb32a03bee4b" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.ApplicationBehaviorTests" name="EVT01_Known_commit_cleanup_failure_preserves_success" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.ApplicationBehaviorTests.API01_Empty_query_ids_do_not_query_identity_or_storage(operation: &quot;list&quot;)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="399256c4-e713-62bf-a574-09b55c55b8af">
+      <Execution id="888fd2d9-9f28-42c7-8fab-c8370519d852" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.ApplicationBehaviorTests" name="API01_Empty_query_ids_do_not_query_identity_or_storage" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.ApplicationBehaviorTests.Q04_EVT01_Exhausted_candidates_return_conflict_without_reusing_pair_or_publishing" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="08854eea-ab31-6b27-0b0d-bf717214b5fc">
+      <Execution id="24ad9437-a352-4408-b330-1d2cbe964ce2" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.ApplicationBehaviorTests" name="Q04_EVT01_Exhausted_candidates_return_conflict_without_reusing_pair_or_publishing" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.ApplicationBehaviorTests.API01_Empty_query_ids_do_not_query_identity_or_storage(operation: &quot;get&quot;)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="9a7b1aad-b846-6b5a-3c89-e1b5eac3f30a">
+      <Execution id="ca7fbf7a-bd4a-4dc9-83f9-7ffd52bafc08" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.ApplicationBehaviorTests" name="API01_Empty_query_ids_do_not_query_identity_or_storage" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.ApplicationBehaviorTests.EVT01_Success_commits_and_disposes_before_publishing_matching_event" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="0a4cf8e9-f9f0-c3ed-347e-ccda59e16661">
+      <Execution id="5f7fa58f-82e3-4895-aabe-fad6c552ead2" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.ApplicationBehaviorTests" name="EVT01_Success_commits_and_disposes_before_publishing_matching_event" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.ApplicationBehaviorTests.ARCH03_SEC02_Advisory_query_requires_role_but_no_mapping_or_command_side_effects" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="582ab4a3-6abd-cd98-254d-fcbbab1cb901">
+      <Execution id="00e6eef0-7aa1-441c-a779-8287da649bac" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.ApplicationBehaviorTests" name="ARCH03_SEC02_Advisory_query_requires_role_but_no_mapping_or_command_side_effects" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.ApplicationBehaviorTests.EVT01_Throwing_metric_observer_cannot_reverse_known_commit(instrumentName: &quot;scheduler.bookings&quot;)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="357d880d-ca6f-e8b2-6517-9950d0cc87be">
+      <Execution id="c17c4690-29ac-4b33-9738-994bc1b07743" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.ApplicationBehaviorTests" name="EVT01_Throwing_metric_observer_cannot_reverse_known_commit" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.ApplicationBehaviorTests.DATA01_EVT01_Exclusion_retry_uses_fresh_transaction_aggregate_and_alternate_pair" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="81018891-c74e-dd3f-2540-9c05e532dd8a">
+      <Execution id="83536022-2d8f-41c1-a084-791431d38b0e" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.ApplicationBehaviorTests" name="DATA01_EVT01_Exclusion_retry_uses_fresh_transaction_aggregate_and_alternate_pair" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="fb799bd2-d0fe-f7ae-020e-3586363d48a0" executionId="bf05f5c1-56a9-4aec-9a44-fac1115112a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1c52fa90-8c7e-a1d4-329c-610b77420f09" executionId="a674d1f3-a2b4-41c7-b029-5c7306ec1ebf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e8769915-7913-1571-0278-098efabe8bba" executionId="e3e75669-3dbd-4013-8d36-34af9b675dc4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="08854eea-ab31-6b27-0b0d-bf717214b5fc" executionId="24ad9437-a352-4408-b330-1d2cbe964ce2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="927e5287-1f37-966f-38d5-672f353f4810" executionId="12d2d5f2-745e-497c-b426-49bfdeb5130e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d8c5a658-4ae3-fdda-cb2a-4e0cc0246fe7" executionId="c72c56b3-62da-4599-8b66-a082954c6be9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="399256c4-e713-62bf-a574-09b55c55b8af" executionId="888fd2d9-9f28-42c7-8fab-c8370519d852" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e7f19379-eccd-fec6-3383-cbb508d7ce24" executionId="1b9ef317-1849-415a-8d77-2a577e1ce37a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="205abf0c-6be0-4d40-44d7-1e206b318be4" executionId="6a87312c-a23e-4321-910c-d18fb3e98859" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d155a813-74f2-03e7-672b-ff3dff12f582" executionId="2c7462fa-56f8-4805-b9b2-077dd3aabf81" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0a4cf8e9-f9f0-c3ed-347e-ccda59e16661" executionId="5f7fa58f-82e3-4895-aabe-fad6c552ead2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19f75f9a-384c-182d-5f57-ff7a8ae4d45d" executionId="6b7b4055-c735-41fd-9e85-c40fc375444f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0e771649-72b0-a08f-3651-26eb12e23181" executionId="6d379b19-7c4c-440f-8ee6-eb32a03bee4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="582ab4a3-6abd-cd98-254d-fcbbab1cb901" executionId="00e6eef0-7aa1-441c-a779-8287da649bac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f1251a8-5cc5-37aa-b9f0-de5383815518" executionId="bcadbec8-6033-44b3-bf88-054e7bbd481b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aad4841e-bd5c-93df-de31-5b9192f4958c" executionId="816b742a-19ee-4c10-acd0-3990f747d23b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="81018891-c74e-dd3f-2540-9c05e532dd8a" executionId="83536022-2d8f-41c1-a084-791431d38b0e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a95b1bd5-679c-8f93-8a53-cb72ed110e82" executionId="19d11708-8575-4d93-b983-a5d6d5354da5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="18a10f5c-367b-2a07-03cf-6fa54c3adadf" executionId="dd32fbb4-86e6-41bf-9e86-6dced5998031" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="06259b40-4c4e-6127-9c1f-7d7bc40c9e66" executionId="fb56ebd0-7e8c-40dc-afe2-568d52bdc524" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c4e4b582-3832-5982-c237-bd8ceeb3a6cb" executionId="a129bf1b-4d60-414e-a439-0a5fa3eb8964" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1e47c672-7f71-d60b-bea6-3fed7f14c972" executionId="7ebb59ba-3941-4449-bed1-777e269b1408" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="45078466-9349-90dd-d9fc-ea4ed1ad7606" executionId="1705459a-503e-4f61-ae42-5292e11833b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="abf1c97f-476f-9e82-650e-2df1448396d8" executionId="02bd0fd9-6075-48aa-9407-d72285afb20f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bfdc3a7e-2607-33eb-e4df-a4417b1c46a3" executionId="751666fd-0357-4c5e-82a2-8a72068e8580" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9a7b1aad-b846-6b5a-3c89-e1b5eac3f30a" executionId="ca7fbf7a-bd4a-4dc9-83f9-7ffd52bafc08" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="357d880d-ca6f-e8b2-6517-9950d0cc87be" executionId="c17c4690-29ac-4b33-9738-994bc1b07743" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eab6b1da-43e5-54e4-2b7d-f186c92585b3" executionId="e0e5504a-5b1a-492c-9359-be4ad1e36650" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1877f252-04f2-5447-577b-5ea666641d13" executionId="25ae102b-fb12-4dfc-b1eb-237fa813ca43" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="29" executed="29" passed="29" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 8.0.31)&#xD;
+[xUnit.net 00:00:00.10]   Discovering: Scheduler.IntegrationTests&#xD;
+[xUnit.net 00:00:00.16]   Discovered:  Scheduler.IntegrationTests&#xD;
+[xUnit.net 00:00:00.17]   Starting:    Scheduler.IntegrationTests&#xD;
+fail: Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor[43]&#xD;
+      An exception occurred while trying to decrypt the element.&#xD;
+      System.Security.Cryptography.CryptographicException: Error occurred during a cryptographic operation.&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapiCore(Byte* pbProtectedData, UInt32 cbProtectedData, Byte* pbOptionalEntropy, UInt32 cbOptionalEntropy)&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapi(Byte[] protectedSecret)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor.Decrypt(XElement encryptedElement)&#xD;
+fail: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[24]&#xD;
+      An exception occurred while processing the key element '&lt;key id="6907cae3-b07a-4bbd-a04e-5dd884ea305a" version="1" /&gt;'.&#xD;
+      System.Security.Cryptography.CryptographicException: Error occurred during a cryptographic operation.&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapiCore(Byte* pbProtectedData, UInt32 cbProtectedData, Byte* pbOptionalEntropy, UInt32 cbOptionalEntropy)&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapi(Byte[] protectedSecret)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor.Decrypt(XElement encryptedElement)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.XmlEncryptionExtensions.DecryptElement(XElement element, IActivator activator)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.Microsoft.AspNetCore.DataProtection.KeyManagement.Internal.IInternalXmlKeyManager.DeserializeDescriptorFromKeyElement(XElement keyElement)&#xD;
+warn: Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver[12]&#xD;
+      Key {6907cae3-b07a-4bbd-a04e-5dd884ea305a} is ineligible to be the default key because its CreateEncryptor method failed.&#xD;
+      System.Security.Cryptography.CryptographicException: Error occurred during a cryptographic operation.&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapiCore(Byte* pbProtectedData, UInt32 cbProtectedData, Byte* pbOptionalEntropy, UInt32 cbOptionalEntropy)&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapi(Byte[] protectedSecret)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor.Decrypt(XElement encryptedElement)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.XmlEncryptionExtensions.DecryptElement(XElement element, IActivator activator)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.Microsoft.AspNetCore.DataProtection.KeyManagement.Internal.IInternalXmlKeyManager.DeserializeDescriptorFromKeyElement(XElement keyElement)&#xD;
+         at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)&#xD;
+         at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)&#xD;
+         at System.Lazy`1.CreateValue()&#xD;
+         at Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngGcmAuthenticatedEncryptorFactory.CreateEncryptorInstance(IKey key)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyBase.CreateEncryptor()&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver.CanCreateAuthenticatedEncryptor(IKey key)&#xD;
+warn: Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver[12]&#xD;
+      Key {6907cae3-b07a-4bbd-a04e-5dd884ea305a} is ineligible to be the default key because its CreateEncryptor method failed.&#xD;
+      System.Security.Cryptography.CryptographicException: Error occurred during a cryptographic operation.&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapiCore(Byte* pbProtectedData, UInt32 cbProtectedData, Byte* pbOptionalEntropy, UInt32 cbOptionalEntropy)&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapi(Byte[] protectedSecret)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor.Decrypt(XElement encryptedElement)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.XmlEncryptionExtensions.DecryptElement(XElement element, IActivator activator)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.Microsoft.AspNetCore.DataProtection.KeyManagement.Internal.IInternalXmlKeyManager.DeserializeDescriptorFromKeyElement(XElement keyElement)&#xD;
+         at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)&#xD;
+      --- End of stack trace from previous location ---&#xD;
+         at System.Lazy`1.CreateValue()&#xD;
+         at Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngGcmAuthenticatedEncryptorFactory.CreateEncryptorInstance(IKey key)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyBase.CreateEncryptor()&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver.CanCreateAuthenticatedEncryptor(IKey key)&#xD;
+fail: Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor[43]&#xD;
+      An exception occurred while trying to decrypt the element.&#xD;
+      System.Security.Cryptography.CryptographicException: Error occurred during a cryptographic operation.&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapiCore(Byte* pbProtectedData, UInt32 cbProtectedData, Byte* pbOptionalEntropy, UInt32 cbOptionalEntropy)&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapi(Byte[] protectedSecret)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor.Decrypt(XElement encryptedElement)&#xD;
+fail: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[24]&#xD;
+      An exception occurred while processing the key element '&lt;key id="0cf57bc8-6369-429d-b01e-ad6ef074076d" version="1" /&gt;'.&#xD;
+      System.Security.Cryptography.CryptographicException: Error occurred during a cryptographic operation.&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapiCore(Byte* pbProtectedData, UInt32 cbProtectedData, Byte* pbOptionalEntropy, UInt32 cbOptionalEntropy)&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapi(Byte[] protectedSecret)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor.Decrypt(XElement encryptedElement)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.XmlEncryptionExtensions.DecryptElement(XElement element, IActivator activator)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.Microsoft.AspNetCore.DataProtection.KeyManagement.Internal.IInternalXmlKeyManager.DeserializeDescriptorFromKeyElement(XElement keyElement)&#xD;
+warn: Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver[12]&#xD;
+      Key {0cf57bc8-6369-429d-b01e-ad6ef074076d} is ineligible to be the default key because its CreateEncryptor method failed.&#xD;
+      System.Security.Cryptography.CryptographicException: Error occurred during a cryptographic operation.&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapiCore(Byte* pbProtectedData, UInt32 cbProtectedData, Byte* pbOptionalEntropy, UInt32 cbOptionalEntropy)&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapi(Byte[] protectedSecret)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor.Decrypt(XElement encryptedElement)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.XmlEncryptionExtensions.DecryptElement(XElement element, IActivator activator)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.Microsoft.AspNetCore.DataProtection.KeyManagement.Internal.IInternalXmlKeyManager.DeserializeDescriptorFromKeyElement(XElement keyElement)&#xD;
+         at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)&#xD;
+         at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)&#xD;
+         at System.Lazy`1.CreateValue()&#xD;
+         at Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngGcmAuthenticatedEncryptorFactory.CreateEncryptorInstance(IKey key)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyBase.CreateEncryptor()&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver.CanCreateAuthenticatedEncryptor(IKey key)&#xD;
+fail: Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor[43]&#xD;
+      An exception occurred while trying to decrypt the element.&#xD;
+      System.Security.Cryptography.CryptographicException: Error occurred during a cryptographic operation.&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapiCore(Byte* pbProtectedData, UInt32 cbProtectedData, Byte* pbOptionalEntropy, UInt32 cbOptionalEntropy)&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapi(Byte[] protectedSecret)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor.Decrypt(XElement encryptedElement)&#xD;
+fail: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[24]&#xD;
+      An exception occurred while processing the key element '&lt;key id="b2640668-7138-4dfe-a670-fc2e78429f25" version="1" /&gt;'.&#xD;
+      System.Security.Cryptography.CryptographicException: Error occurred during a cryptographic operation.&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapiCore(Byte* pbProtectedData, UInt32 cbProtectedData, Byte* pbOptionalEntropy, UInt32 cbOptionalEntropy)&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapi(Byte[] protectedSecret)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor.Decrypt(XElement encryptedElement)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.XmlEncryptionExtensions.DecryptElement(XElement element, IActivator activator)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.Microsoft.AspNetCore.DataProtection.KeyManagement.Internal.IInternalXmlKeyManager.DeserializeDescriptorFromKeyElement(XElement keyElement)&#xD;
+warn: Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver[12]&#xD;
+      Key {b2640668-7138-4dfe-a670-fc2e78429f25} is ineligible to be the default key because its CreateEncryptor method failed.&#xD;
+      System.Security.Cryptography.CryptographicException: Error occurred during a cryptographic operation.&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapiCore(Byte* pbProtectedData, UInt32 cbProtectedData, Byte* pbOptionalEntropy, UInt32 cbOptionalEntropy)&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapi(Byte[] protectedSecret)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor.Decrypt(XElement encryptedElement)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.XmlEncryptionExtensions.DecryptElement(XElement element, IActivator activator)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.Microsoft.AspNetCore.DataProtection.KeyManagement.Internal.IInternalXmlKeyManager.DeserializeDescriptorFromKeyElement(XElement keyElement)&#xD;
+         at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)&#xD;
+         at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)&#xD;
+         at System.Lazy`1.CreateValue()&#xD;
+         at Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngGcmAuthenticatedEncryptorFactory.CreateEncryptorInstance(IKey key)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyBase.CreateEncryptor()&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver.CanCreateAuthenticatedEncryptor(IKey key)&#xD;
+warn: Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver[12]&#xD;
+      Key {b2640668-7138-4dfe-a670-fc2e78429f25} is ineligible to be the default key because its CreateEncryptor method failed.&#xD;
+      System.Security.Cryptography.CryptographicException: Error occurred during a cryptographic operation.&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapiCore(Byte* pbProtectedData, UInt32 cbProtectedData, Byte* pbOptionalEntropy, UInt32 cbOptionalEntropy)&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapi(Byte[] protectedSecret)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor.Decrypt(XElement encryptedElement)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.XmlEncryptionExtensions.DecryptElement(XElement element, IActivator activator)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.Microsoft.AspNetCore.DataProtection.KeyManagement.Internal.IInternalXmlKeyManager.DeserializeDescriptorFromKeyElement(XElement keyElement)&#xD;
+         at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)&#xD;
+      --- End of stack trace from previous location ---&#xD;
+         at System.Lazy`1.CreateValue()&#xD;
+         at Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngGcmAuthenticatedEncryptorFactory.CreateEncryptorInstance(IKey key)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyBase.CreateEncryptor()&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver.CanCreateAuthenticatedEncryptor(IKey key)&#xD;
+warn: Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver[12]&#xD;
+      Key {0cf57bc8-6369-429d-b01e-ad6ef074076d} is ineligible to be the default key because its CreateEncryptor method failed.&#xD;
+      System.Security.Cryptography.CryptographicException: Error occurred during a cryptographic operation.&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapiCore(Byte* pbProtectedData, UInt32 cbProtectedData, Byte* pbOptionalEntropy, UInt32 cbOptionalEntropy)&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapi(Byte[] protectedSecret)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor.Decrypt(XElement encryptedElement)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.XmlEncryptionExtensions.DecryptElement(XElement element, IActivator activator)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.Microsoft.AspNetCore.DataProtection.KeyManagement.Internal.IInternalXmlKeyManager.DeserializeDescriptorFromKeyElement(XElement keyElement)&#xD;
+         at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)&#xD;
+      --- End of stack trace from previous location ---&#xD;
+         at System.Lazy`1.CreateValue()&#xD;
+         at Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngGcmAuthenticatedEncryptorFactory.CreateEncryptorInstance(IKey key)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyBase.CreateEncryptor()&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver.CanCreateAuthenticatedEncryptor(IKey key)&#xD;
+warn: Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver[12]&#xD;
+      Key {6907cae3-b07a-4bbd-a04e-5dd884ea305a} is ineligible to be the default key because its CreateEncryptor method failed.&#xD;
+      System.Security.Cryptography.CryptographicException: Error occurred during a cryptographic operation.&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapiCore(Byte* pbProtectedData, UInt32 cbProtectedData, Byte* pbOptionalEntropy, UInt32 cbOptionalEntropy)&#xD;
+         at Microsoft.AspNetCore.DataProtection.Cng.DpapiSecretSerializerHelper.UnprotectWithDpapi(Byte[] protectedSecret)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor.Decrypt(XElement encryptedElement)&#xD;
+         at Microsoft.AspNetCore.DataProtection.XmlEncryption.XmlEncryptionExtensions.DecryptElement(XElement element, IActivator activator)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.Microsoft.AspNetCore.DataProtection.KeyManagement.Internal.IInternalXmlKeyManager.DeserializeDescriptorFromKeyElement(XElement keyElement)&#xD;
+         at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)&#xD;
+      --- End of stack trace from previous location ---&#xD;
+         at System.Lazy`1.CreateValue()&#xD;
+         at Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngGcmAuthenticatedEncryptorFactory.CreateEncryptorInstance(IKey key)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyBase.CreateEncryptor()&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver.CanCreateAuthenticatedEncryptor(IKey key)&#xD;
+fail: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider[48]&#xD;
+      An error occurred while reading the key ring.&#xD;
+      System.UnauthorizedAccessException: Access to the path 'C:\Users\X1\AppData\Local\ASP.NET\DataProtection-Keys\baebadd7-f517-4f01-888a-f69091c99caa.tmp' is denied.&#xD;
+         at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)&#xD;
+         at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)&#xD;
+         at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)&#xD;
+         at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)&#xD;
+         at System.IO.File.OpenWrite(String path)&#xD;
+         at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.StoreElementCore(XElement element, String filename)&#xD;
+         at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.StoreElement(XElement element, String friendlyName)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.Microsoft.AspNetCore.DataProtection.KeyManagement.Internal.IInternalXmlKeyManager.CreateNewKey(Guid keyId, DateTimeOffset creationDate, DateTimeOffset activationDate, DateTimeOffset expirationDate)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.CreateNewKey(DateTimeOffset activationDate, DateTimeOffset expirationDate)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)&#xD;
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)&#xD;
+info: Microsoft.Hosting.Lifetime[14]&#xD;
+      Now listening on: http://localhost:5080&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+warn: Scheduler.Api[0]&#xD;
+      Request failed; code dependency_unavailable; trace 0HNPKNP2F4U3U&#xD;
+info: Scheduler.Api[0]&#xD;
+      HTTP POST; route api/appointments; status 503; elapsed 1694.9808; trace 00-f28f47be8fb69891ef6f4cdd4ba480df-b1c4ff45dce177e3-00&#xD;
+[xUnit.net 00:00:02.35]   Finished:    Scheduler.IntegrationTests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

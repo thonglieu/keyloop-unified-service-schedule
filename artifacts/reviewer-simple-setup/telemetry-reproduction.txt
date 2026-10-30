@@ -1,0 +1,9 @@
+Executed 2026-10-29, before callback cleanup:
+dotnet test tests/Scheduler.IntegrationTests --no-build --no-restore --filter 'FullyQualifiedName~EVT01_Throwing_metric_observer|FullyQualifiedName~API01_Known_database_unavailability' --logger 'console;verbosity=minimal'
+Result: 3 passed, 1 failed. API01_Known_database_unavailability_is_503_and_emits_failed_metric_duration_and_booking_span failed because outcomes collection was empty.
+
+The HTTP telemetry test alone passed (1/1). Diagnostic inspection during the combined run showed the booking Activity was observed, Outcomes.Enabled was true, but neither outcomes nor durations were received. Explicitly subscribing to the concrete instruments did not fix the failure; those exploratory edits were removed.
+
+After disarming intentional throwing callbacks in finally, the same four-test selection passed (4/4). Broader focused verification:
+dotnet test tests/Scheduler.IntegrationTests --no-restore --filter 'FullyQualifiedName~ApplicationBehaviorTests|FullyQualifiedName~API01_Known_database_unavailability' --logger 'trx;LogFileName=telemetry-cleanup.trx' --results-directory artifacts/reviewer-simple-setup
+Result: 29 passed, 0 failed; telemetry-cleanup.trx contains the machine-readable evidence. Original telemetry assertions remain unchanged.

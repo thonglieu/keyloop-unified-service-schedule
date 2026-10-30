@@ -1,0 +1,6 @@
+# Merge with an existing project config; do not overwrite it.
+# Uses the current documented standalone custom-agent format.
+# Model, permissions, provider and MCP tools inherit from the parent session.
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 3

@@ -1,0 +1,36 @@
+name: verify
+on: [push, pull_request]
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:17.2
+        env:
+          POSTGRES_USER: scheduler_test
+          POSTGRES_PASSWORD: ${{ secrets.SCHEDULER_CI_DB_PASSWORD }}
+          POSTGRES_DB: keyloop_scheduler_test_ci
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U scheduler_test -d keyloop_scheduler_test_ci"
+          --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      ConnectionStrings__SchedulerTestDb: ${{ secrets.SCHEDULER_CI_TEST_CONNECTION }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          global-json-file: global.json
+      - run: dotnet tool restore
+      - run: dotnet restore Keyloop.ServiceScheduler.sln
+      - run: dotnet build Keyloop.ServiceScheduler.sln --no-restore
+      - run: dotnet test tests/Scheduler.UnitTests --no-build --no-restore --logger "trx;LogFileName=unit.trx" --results-directory artifacts/backend-ci
+      - run: dotnet test tests/Scheduler.IntegrationTests --no-build --no-restore --logger "trx;LogFileName=integration.trx" --results-directory artifacts/backend-ci
+      - name: Preserve backend test evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: backend-test-results
+          path: artifacts/backend-ci/*.trx
+          if-no-files-found: warn

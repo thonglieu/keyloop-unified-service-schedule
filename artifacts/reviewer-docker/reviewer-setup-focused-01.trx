@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="7ebbc2b2-0fb9-45cb-b9e4-bd17d9f415e3" name="X1@THONG-LIEU 2026-10-28 18:41:02" runUser="THONG-LIEU\CodexSandboxOffline" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-28T18:41:02.2317668+07:00" queuing="2026-10-28T18:41:02.2317673+07:00" start="2026-10-28T18:40:51.7588654+07:00" finish="2026-10-28T18:41:19.4800223+07:00" />
+  <TestSettings name="default" id="49065718-03ce-4df3-877f-69dcda050ee0">
+    <Deployment runDeploymentRoot="X1_THONG-LIEU_2026-10-28_18_41_02" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="dc868c60-abd1-41c0-9753-19a57cd46b7f" testId="687b96c2-1043-d187-6a85-0fd5e0f6558e" testName="Scheduler.IntegrationTests.EnvironmentTests.AC17_Seed_command_rejects_each_guard_before_connecting(environment: &quot;Development&quot;, enabled: &quot;false&quot;, database: &quot;keyloop_scheduler_demo&quot;, command: &quot;--seed-demo&quot;)" computerName="THONG-LIEU" duration="00:00:04.9084322" startTime="2026-10-28T18:41:07.6830161+07:00" endTime="2026-10-28T18:41:07.6830171+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc868c60-abd1-41c0-9753-19a57cd46b7f" />
+    <UnitTestResult executionId="71d545d7-5cce-466d-8621-d40b4541c3ab" testId="ed0d352c-2365-b5e5-9420-2804ea2cf64e" testName="Scheduler.IntegrationTests.FixturePersistenceTests.AC16_Seed_core_creates_isolated_namespaces_without_removing_existing_data" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-28T18:41:00.6924244+07:00" endTime="2026-10-28T18:41:00.6924412+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="71d545d7-5cce-466d-8621-d40b4541c3ab">
+      <Output>
+        <ErrorInfo>
+          <Message>Npgsql.NpgsqlException : Failed to connect to 127.0.0.1:55432&#xD;
+---- System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it.</Message>
+          <StackTrace>   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)&#xD;
+   at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)&#xD;
+   at Npgsql.Internal.NpgsqlConnector.&lt;Open&gt;g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)&#xD;
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)&#xD;
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)&#xD;
+   at Npgsql.PoolingDataSource.&lt;Get&gt;g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)&#xD;
+   at Npgsql.NpgsqlConnection.&lt;Open&gt;g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)&#xD;
+   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 41&#xD;
+   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 51&#xD;
+----- Inner Stack Trace -----&#xD;
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)&#xD;
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)&#xD;
+   at System.Net.Sockets.Socket.&lt;ConnectAsync&gt;g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)&#xD;
+   at Npgsql.TaskTimeoutAndCancellation.ExecuteAsync(Func`2 getTaskFunc, NpgsqlTimeout timeout, CancellationToken cancellationToken)&#xD;
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fed36a1b-8622-41db-8021-929949335d06" testId="ffeb2ac0-bbbd-176f-0610-c4019d4a233e" testName="Scheduler.IntegrationTests.EnvironmentTests.AC17_Seed_command_rejects_each_guard_before_connecting(environment: &quot;Development&quot;, enabled: &quot;true&quot;, database: &quot;keyloop_scheduler_test_forbiddenseed&quot;, command: &quot;--seed-demo-if-needed&quot;)" computerName="THONG-LIEU" duration="00:00:01.3338755" startTime="2026-10-28T18:41:19.2986871+07:00" endTime="2026-10-28T18:41:19.2986878+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fed36a1b-8622-41db-8021-929949335d06" />
+    <UnitTestResult executionId="14f250ef-8d3a-4853-9f6d-406e959b3f52" testId="52d5390c-971c-cde6-4db5-1578a0c1a794" testName="Scheduler.IntegrationTests.EnvironmentTests.AC17_Seed_command_rejects_each_guard_before_connecting(environment: &quot;Development&quot;, enabled: &quot;false&quot;, database: &quot;keyloop_scheduler_demo&quot;, command: &quot;--seed-demo-if-needed&quot;)" computerName="THONG-LIEU" duration="00:00:01.0727170" startTime="2026-10-28T18:41:12.7852437+07:00" endTime="2026-10-28T18:41:12.7852445+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14f250ef-8d3a-4853-9f6d-406e959b3f52" />
+    <UnitTestResult executionId="e8df48a4-b647-45f3-9338-d7737249e5c5" testId="3c113463-20b9-2c82-60f3-2f4d942c1160" testName="Scheduler.IntegrationTests.EnvironmentTests.AC17_Seed_command_rejects_each_guard_before_connecting(environment: &quot;Development&quot;, enabled: &quot;false&quot;, database: &quot;keyloop_scheduler_demo&quot;, command: &quot;--migrate&quot;)" computerName="THONG-LIEU" duration="00:00:01.5308104" startTime="2026-10-28T18:41:16.5683018+07:00" endTime="2026-10-28T18:41:16.5683022+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e8df48a4-b647-45f3-9338-d7737249e5c5" />
+    <UnitTestResult executionId="8a43660b-9167-4d04-8378-279a900bdbc3" testId="4a20d4c4-ed89-11b9-1cef-a60d40be8340" testName="Scheduler.IntegrationTests.EnvironmentTests.AC17_Seed_command_rejects_each_guard_before_connecting(environment: &quot;Production&quot;, enabled: &quot;true&quot;, database: &quot;keyloop_scheduler_demo&quot;, command: &quot;--migrate&quot;)" computerName="THONG-LIEU" duration="00:00:01.3117712" startTime="2026-10-28T18:41:10.5454660+07:00" endTime="2026-10-28T18:41:10.5454666+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a43660b-9167-4d04-8378-279a900bdbc3" />
+    <UnitTestResult executionId="62d147ef-cb5b-4f83-9db4-dd4d159ec2f3" testId="b0982cb0-debe-1c25-12c9-7d246295b81e" testName="Scheduler.IntegrationTests.EnvironmentTests.AC17_Seed_command_rejects_each_guard_before_connecting(environment: &quot;Development&quot;, enabled: &quot;true&quot;, database: &quot;keyloop_scheduler_test_forbiddenseed&quot;, command: &quot;--migrate&quot;)" computerName="THONG-LIEU" duration="00:00:02.2486415" startTime="2026-10-28T18:41:15.0365000+07:00" endTime="2026-10-28T18:41:15.0365009+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62d147ef-cb5b-4f83-9db4-dd4d159ec2f3" />
+    <UnitTestResult executionId="e26cc31d-e391-43fa-8521-d2a0b8099499" testId="109b3123-94a3-298b-ccb8-c8a39c9349b9" testName="Scheduler.IntegrationTests.EnvironmentTests.AC17_Seed_command_rejects_each_guard_before_connecting(environment: &quot;Production&quot;, enabled: &quot;true&quot;, database: &quot;keyloop_scheduler_demo&quot;, command: &quot;--seed-demo-if-needed&quot;)" computerName="THONG-LIEU" duration="00:00:01.5490451" startTime="2026-10-28T18:41:09.2327982+07:00" endTime="2026-10-28T18:41:09.2327986+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e26cc31d-e391-43fa-8521-d2a0b8099499" />
+    <UnitTestResult executionId="c24d6f57-aad4-40d2-9126-815f54ff9fdc" testId="8c72cafd-e66b-5547-871a-8443c5cd6aab" testName="Scheduler.IntegrationTests.EnvironmentTests.AC17_Seed_command_rejects_each_guard_before_connecting(environment: &quot;Development&quot;, enabled: &quot;true&quot;, database: &quot;keyloop_scheduler_test_forbiddenseed&quot;, command: &quot;--seed-demo&quot;)" computerName="THONG-LIEU" duration="00:00:01.3928080" startTime="2026-10-28T18:41:17.9627575+07:00" endTime="2026-10-28T18:41:17.9627585+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c24d6f57-aad4-40d2-9126-815f54ff9fdc" />
+    <UnitTestResult executionId="c5851009-9b6b-4424-b781-41b7aa4f5496" testId="a2aa7a89-4b58-c17b-ecc5-16190aa95e1e" testName="Scheduler.IntegrationTests.EnvironmentTests.AC17_Seed_command_rejects_each_guard_before_connecting(environment: &quot;Production&quot;, enabled: &quot;true&quot;, database: &quot;keyloop_scheduler_demo&quot;, command: &quot;--seed-demo&quot;)" computerName="THONG-LIEU" duration="00:00:01.1640104" startTime="2026-10-28T18:41:11.7106115+07:00" endTime="2026-10-28T18:41:11.7106121+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c5851009-9b6b-4424-b781-41b7aa4f5496" />
+    <UnitTestResult executionId="251de014-5af3-4486-b78e-50f302c7af59" testId="22ddf05d-5172-e845-bb38-182647317acd" testName="Scheduler.IntegrationTests.ReviewerSetupTests.D02_Reviewer_seed_reuses_current_fixtures_and_refreshes_expired_fixtures_without_deletion" computerName="THONG-LIEU" duration="00:00:00.0010000" startTime="2026-10-28T18:41:02.7476557+07:00" endTime="2026-10-28T18:41:02.7476561+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="251de014-5af3-4486-b78e-50f302c7af59">
+      <Output>
+        <ErrorInfo>
+          <Message>Npgsql.NpgsqlException : Failed to connect to 127.0.0.1:55432&#xD;
+---- System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it.</Message>
+          <StackTrace>   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)&#xD;
+   at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)&#xD;
+   at Npgsql.Internal.NpgsqlConnector.&lt;Open&gt;g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)&#xD;
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)&#xD;
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)&#xD;
+   at Npgsql.PoolingDataSource.&lt;Get&gt;g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)&#xD;
+   at Npgsql.NpgsqlConnection.&lt;Open&gt;g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)&#xD;
+   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 41&#xD;
+   at Scheduler.IntegrationTests.TestDatabase.InitializeAsync() in D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs:line 51&#xD;
+----- Inner Stack Trace -----&#xD;
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)&#xD;
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)&#xD;
+   at System.Net.Sockets.Socket.&lt;ConnectAsync&gt;g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)&#xD;
+   at Npgsql.TaskTimeoutAndCancellation.ExecuteAsync(Func`2 getTaskFunc, NpgsqlTimeout timeout, CancellationToken cancellationToken)&#xD;
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Scheduler.IntegrationTests.EnvironmentTests.AC17_Seed_command_rejects_each_guard_before_connecting(environment: &quot;Development&quot;, enabled: &quot;true&quot;, database: &quot;keyloop_scheduler_test_forbiddenseed&quot;, command: &quot;--seed-demo&quot;)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="8c72cafd-e66b-5547-871a-8443c5cd6aab">
+      <Execution id="c24d6f57-aad4-40d2-9126-815f54ff9fdc" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.EnvironmentTests" name="AC17_Seed_command_rejects_each_guard_before_connecting" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.EnvironmentTests.AC17_Seed_command_rejects_each_guard_before_connecting(environment: &quot;Development&quot;, enabled: &quot;false&quot;, database: &quot;keyloop_scheduler_demo&quot;, command: &quot;--migrate&quot;)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="3c113463-20b9-2c82-60f3-2f4d942c1160">
+      <Execution id="e8df48a4-b647-45f3-9338-d7737249e5c5" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.EnvironmentTests" name="AC17_Seed_command_rejects_each_guard_before_connecting" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.EnvironmentTests.AC17_Seed_command_rejects_each_guard_before_connecting(environment: &quot;Development&quot;, enabled: &quot;false&quot;, database: &quot;keyloop_scheduler_demo&quot;, command: &quot;--seed-demo-if-needed&quot;)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="52d5390c-971c-cde6-4db5-1578a0c1a794">
+      <Execution id="14f250ef-8d3a-4853-9f6d-406e959b3f52" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.EnvironmentTests" name="AC17_Seed_command_rejects_each_guard_before_connecting" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.EnvironmentTests.AC17_Seed_command_rejects_each_guard_before_connecting(environment: &quot;Production&quot;, enabled: &quot;true&quot;, database: &quot;keyloop_scheduler_demo&quot;, command: &quot;--seed-demo-if-needed&quot;)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="109b3123-94a3-298b-ccb8-c8a39c9349b9">
+      <Execution id="e26cc31d-e391-43fa-8521-d2a0b8099499" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.EnvironmentTests" name="AC17_Seed_command_rejects_each_guard_before_connecting" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.FixturePersistenceTests.AC16_Seed_core_creates_isolated_namespaces_without_removing_existing_data" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="ed0d352c-2365-b5e5-9420-2804ea2cf64e">
+      <Execution id="71d545d7-5cce-466d-8621-d40b4541c3ab" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.FixturePersistenceTests" name="AC16_Seed_core_creates_isolated_namespaces_without_removing_existing_data" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.EnvironmentTests.AC17_Seed_command_rejects_each_guard_before_connecting(environment: &quot;Production&quot;, enabled: &quot;true&quot;, database: &quot;keyloop_scheduler_demo&quot;, command: &quot;--seed-demo&quot;)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="a2aa7a89-4b58-c17b-ecc5-16190aa95e1e">
+      <Execution id="c5851009-9b6b-4424-b781-41b7aa4f5496" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.EnvironmentTests" name="AC17_Seed_command_rejects_each_guard_before_connecting" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.EnvironmentTests.AC17_Seed_command_rejects_each_guard_before_connecting(environment: &quot;Development&quot;, enabled: &quot;false&quot;, database: &quot;keyloop_scheduler_demo&quot;, command: &quot;--seed-demo&quot;)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="687b96c2-1043-d187-6a85-0fd5e0f6558e">
+      <Execution id="dc868c60-abd1-41c0-9753-19a57cd46b7f" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.EnvironmentTests" name="AC17_Seed_command_rejects_each_guard_before_connecting" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.EnvironmentTests.AC17_Seed_command_rejects_each_guard_before_connecting(environment: &quot;Development&quot;, enabled: &quot;true&quot;, database: &quot;keyloop_scheduler_test_forbiddenseed&quot;, command: &quot;--seed-demo-if-needed&quot;)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="ffeb2ac0-bbbd-176f-0610-c4019d4a233e">
+      <Execution id="fed36a1b-8622-41db-8021-929949335d06" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.EnvironmentTests" name="AC17_Seed_command_rejects_each_guard_before_connecting" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.EnvironmentTests.AC17_Seed_command_rejects_each_guard_before_connecting(environment: &quot;Development&quot;, enabled: &quot;true&quot;, database: &quot;keyloop_scheduler_test_forbiddenseed&quot;, command: &quot;--migrate&quot;)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="b0982cb0-debe-1c25-12c9-7d246295b81e">
+      <Execution id="62d147ef-cb5b-4f83-9db4-dd4d159ec2f3" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.EnvironmentTests" name="AC17_Seed_command_rejects_each_guard_before_connecting" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.EnvironmentTests.AC17_Seed_command_rejects_each_guard_before_connecting(environment: &quot;Production&quot;, enabled: &quot;true&quot;, database: &quot;keyloop_scheduler_demo&quot;, command: &quot;--migrate&quot;)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="4a20d4c4-ed89-11b9-1cef-a60d40be8340">
+      <Execution id="8a43660b-9167-4d04-8378-279a900bdbc3" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.EnvironmentTests" name="AC17_Seed_command_rejects_each_guard_before_connecting" />
+    </UnitTest>
+    <UnitTest name="Scheduler.IntegrationTests.ReviewerSetupTests.D02_Reviewer_seed_reuses_current_fixtures_and_refreshes_expired_fixtures_without_deletion" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.integrationtests\bin\debug\net8.0\scheduler.integrationtests.dll" id="22ddf05d-5172-e845-bb38-182647317acd">
+      <Execution id="251de014-5af3-4486-b78e-50f302c7af59" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\bin\Debug\net8.0\Scheduler.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.IntegrationTests.ReviewerSetupTests" name="D02_Reviewer_seed_reuses_current_fixtures_and_refreshes_expired_fixtures_without_deletion" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="687b96c2-1043-d187-6a85-0fd5e0f6558e" executionId="dc868c60-abd1-41c0-9753-19a57cd46b7f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed0d352c-2365-b5e5-9420-2804ea2cf64e" executionId="71d545d7-5cce-466d-8621-d40b4541c3ab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ffeb2ac0-bbbd-176f-0610-c4019d4a233e" executionId="fed36a1b-8622-41db-8021-929949335d06" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="52d5390c-971c-cde6-4db5-1578a0c1a794" executionId="14f250ef-8d3a-4853-9f6d-406e959b3f52" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c113463-20b9-2c82-60f3-2f4d942c1160" executionId="e8df48a4-b647-45f3-9338-d7737249e5c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4a20d4c4-ed89-11b9-1cef-a60d40be8340" executionId="8a43660b-9167-4d04-8378-279a900bdbc3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b0982cb0-debe-1c25-12c9-7d246295b81e" executionId="62d147ef-cb5b-4f83-9db4-dd4d159ec2f3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="109b3123-94a3-298b-ccb8-c8a39c9349b9" executionId="e26cc31d-e391-43fa-8521-d2a0b8099499" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8c72cafd-e66b-5547-871a-8443c5cd6aab" executionId="c24d6f57-aad4-40d2-9126-815f54ff9fdc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2aa7a89-4b58-c17b-ecc5-16190aa95e1e" executionId="c5851009-9b6b-4424-b781-41b7aa4f5496" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="22ddf05d-5172-e845-bb38-182647317acd" executionId="251de014-5af3-4486-b78e-50f302c7af59" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="11" executed="11" passed="9" failed="2" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 8.0.31)&#xD;
+[xUnit.net 00:00:02.95]   Discovering: Scheduler.IntegrationTests&#xD;
+[xUnit.net 00:00:03.24]   Discovered:  Scheduler.IntegrationTests&#xD;
+[xUnit.net 00:00:03.24]   Starting:    Scheduler.IntegrationTests&#xD;
+[xUnit.net 00:00:05.41]       Npgsql.NpgsqlException : Failed to connect to 127.0.0.1:55432&#xD;
+[xUnit.net 00:00:05.41]       ---- System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it.&#xD;
+[xUnit.net 00:00:05.41]       Stack Trace:&#xD;
+[xUnit.net 00:00:05.41]            at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)&#xD;
+[xUnit.net 00:00:05.41]            at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)&#xD;
+[xUnit.net 00:00:05.41]            at Npgsql.Internal.NpgsqlConnector.&lt;Open&gt;g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)&#xD;
+[xUnit.net 00:00:05.41]            at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)&#xD;
+[xUnit.net 00:00:05.41]            at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)&#xD;
+[xUnit.net 00:00:05.41]            at Npgsql.PoolingDataSource.&lt;Get&gt;g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)&#xD;
+[xUnit.net 00:00:05.41]            at Npgsql.NpgsqlConnection.&lt;Open&gt;g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)&#xD;
+[xUnit.net 00:00:05.41]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(41,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:05.41]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(51,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:05.41]         ----- Inner Stack Trace -----&#xD;
+[xUnit.net 00:00:05.41]            at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)&#xD;
+[xUnit.net 00:00:05.41]            at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)&#xD;
+[xUnit.net 00:00:05.41]            at System.Net.Sockets.Socket.&lt;ConnectAsync&gt;g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)&#xD;
+[xUnit.net 00:00:05.41]            at Npgsql.TaskTimeoutAndCancellation.ExecuteAsync(Func`2 getTaskFunc, NpgsqlTimeout timeout, CancellationToken cancellationToken)&#xD;
+[xUnit.net 00:00:05.41]            at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)&#xD;
+[xUnit.net 00:00:07.46]       Npgsql.NpgsqlException : Failed to connect to 127.0.0.1:55432&#xD;
+[xUnit.net 00:00:07.46]       ---- System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it.&#xD;
+[xUnit.net 00:00:07.46]       Stack Trace:&#xD;
+[xUnit.net 00:00:07.46]            at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)&#xD;
+[xUnit.net 00:00:07.46]            at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)&#xD;
+[xUnit.net 00:00:07.46]            at Npgsql.Internal.NpgsqlConnector.&lt;Open&gt;g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)&#xD;
+[xUnit.net 00:00:07.46]            at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)&#xD;
+[xUnit.net 00:00:07.46]            at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)&#xD;
+[xUnit.net 00:00:07.46]            at Npgsql.PoolingDataSource.&lt;Get&gt;g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)&#xD;
+[xUnit.net 00:00:07.46]            at Npgsql.NpgsqlConnection.&lt;Open&gt;g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)&#xD;
+[xUnit.net 00:00:07.46]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(41,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:07.46]         D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.IntegrationTests\TestDatabase.cs(51,0): at Scheduler.IntegrationTests.TestDatabase.InitializeAsync()&#xD;
+[xUnit.net 00:00:07.46]         ----- Inner Stack Trace -----&#xD;
+[xUnit.net 00:00:07.46]            at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)&#xD;
+[xUnit.net 00:00:07.46]            at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)&#xD;
+[xUnit.net 00:00:07.46]            at System.Net.Sockets.Socket.&lt;ConnectAsync&gt;g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)&#xD;
+[xUnit.net 00:00:07.46]            at Npgsql.TaskTimeoutAndCancellation.ExecuteAsync(Func`2 getTaskFunc, NpgsqlTimeout timeout, CancellationToken cancellationToken)&#xD;
+[xUnit.net 00:00:07.46]            at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)&#xD;
+[xUnit.net 00:00:24.03]   Finished:    Scheduler.IntegrationTests&#xD;
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-28T18:41:00.6991284+07:00">
+        <Text>[xUnit.net 00:00:05.41]     Scheduler.IntegrationTests.FixturePersistenceTests.AC16_Seed_core_creates_isolated_namespaces_without_removing_existing_data [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="THONG-LIEU" outcome="Error" timestamp="2026-10-28T18:41:02.7458059+07:00">
+        <Text>[xUnit.net 00:00:07.46]     Scheduler.IntegrationTests.ReviewerSetupTests.D02_Reviewer_seed_reuses_current_fixtures_and_refreshes_expired_fixtures_without_deletion [FAIL]</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>

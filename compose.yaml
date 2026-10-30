@@ -1,0 +1,61 @@
+x-api-image: &api-image
+  build:
+    context: .
+    dockerfile: Dockerfile
+  image: keyloop-scheduler-api:local
+
+services:
+  db:
+    image: postgres:17.2
+    entrypoint: ["/bin/sh", "/docker-entrypoint-check.sh"]
+    command: ["postgres"]
+    environment:
+      POSTGRES_USER: scheduler_bootstrap
+      POSTGRES_PASSWORD: ${REVIEWER_DB_ADMIN_PASSWORD:?Copy .env.example to .env and set REVIEWER_DB_ADMIN_PASSWORD}
+      POSTGRES_DB: postgres
+      APP_DB_PASSWORD: ${REVIEWER_DB_PASSWORD:?Copy .env.example to .env and set REVIEWER_DB_PASSWORD}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./docker/postgres/01-bootstrap.sh:/docker-entrypoint-initdb.d/01-bootstrap.sh:ro
+      - ./docker/postgres/entrypoint-check.sh:/docker-entrypoint-check.sh:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -U scheduler_app -d keyloop_scheduler_demo"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+
+  migrate:
+    <<: *api-image
+    environment: &api-environment
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__SchedulerDb: Host=db;Port=5432;Database=keyloop_scheduler_demo;Username=scheduler_app;Password=${REVIEWER_DB_PASSWORD:?Copy .env.example to .env and set REVIEWER_DB_PASSWORD};Include Error Detail=false
+      Demo__Enabled: "true"
+      ReviewerAuth__Enabled: ${REVIEWER_AUTH_ENABLED:-false}
+      Jwt__Authority: ${REVIEWER_JWT_AUTHORITY:-}
+      Jwt__Issuer: ${REVIEWER_JWT_ISSUER:-}
+      Jwt__Audience: ${REVIEWER_JWT_AUDIENCE:-}
+    command: ["--migrate"]
+    depends_on:
+      db:
+        condition: service_healthy
+
+  seed:
+    <<: *api-image
+    environment: *api-environment
+    command: ["--seed-demo-if-needed"]
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+
+  api:
+    <<: *api-image
+    environment: *api-environment
+    command: ["--urls", "http://0.0.0.0:8080"]
+    ports:
+      - "127.0.0.1:${REVIEWER_API_PORT:-5080}:8080"
+    depends_on:
+      seed:
+        condition: service_completed_successfully
+
+volumes:
+  postgres_data:

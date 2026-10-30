@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="6160765a-967d-4e71-bd1a-d4d81bf19eb2" name="@73e5a53851ba 2026-10-30 02:45:51" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-30T02:45:51.1831590+00:00" queuing="2026-10-30T02:45:51.1831590+00:00" start="2026-10-30T02:45:50.4560341+00:00" finish="2026-10-30T02:45:51.2256993+00:00" />
+  <TestSettings name="default" id="5f63170f-988c-4944-8a13-bc011eb8e8ed">
+    <Deployment runDeploymentRoot="_73e5a53851ba_2026-10-30_02_45_51" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="36880dca-ed5a-45c5-a02f-386dc1cb0ed5" testId="146954bf-4293-27ec-c0a1-b35b1fde4fc0" testName="Scheduler.UnitTests.BookingRulesTests.Equivalent_offsets_normalize_to_same_instant" computerName="73e5a53851ba" duration="00:00:00.0106636" startTime="2026-10-30T02:45:51.0990785+00:00" endTime="2026-10-30T02:45:51.0991025+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36880dca-ed5a-45c5-a02f-386dc1cb0ed5" />
+    <UnitTestResult executionId="4b08c88d-bdc3-4a81-8043-299cf9b6dc0e" testId="40850f90-07f0-8f42-d849-c2c6727de2be" testName="Scheduler.UnitTests.AppointmentTests.ARCH01_Each_association_is_required(emptyIndex: 0)" computerName="73e5a53851ba" duration="00:00:00.0003270" startTime="2026-10-30T02:45:51.1047845+00:00" endTime="2026-10-30T02:45:51.1047846+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b08c88d-bdc3-4a81-8043-299cf9b6dc0e" />
+    <UnitTestResult executionId="80ccffbf-b6c6-42ee-b980-c34bec49d5ac" testId="e0109aa2-503d-ddb8-5fa0-4a795f9f526c" testName="Scheduler.UnitTests.BookingRulesTests.Timestamp_requires_explicit_offset(text: &quot;2030-01-02T09:00:00+07:00&quot;, expected: True)" computerName="73e5a53851ba" duration="00:00:00.0004074" startTime="2026-10-30T02:45:51.1045990+00:00" endTime="2026-10-30T02:45:51.1045991+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80ccffbf-b6c6-42ee-b980-c34bec49d5ac" />
+    <UnitTestResult executionId="d9069c61-23df-4a5e-bb1a-133849182a24" testId="037b0ef4-6423-cf8c-b254-8ba4f37b4f25" testName="Scheduler.UnitTests.AppointmentTests.ARCH01_Each_association_is_required(emptyIndex: 4)" computerName="73e5a53851ba" duration="00:00:00.0000270" startTime="2026-10-30T02:45:51.1456610+00:00" endTime="2026-10-30T02:45:51.1456610+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d9069c61-23df-4a5e-bb1a-133849182a24" />
+    <UnitTestResult executionId="848756e8-6b96-4c2c-9d07-15d705bfb8a3" testId="c8f19b80-5b36-7af3-b8af-3294c50c3180" testName="Scheduler.UnitTests.BookingRulesTests.Adjacent_intervals_do_not_overlap_but_partial_overlap_does" computerName="73e5a53851ba" duration="00:00:00.0009609" startTime="2026-10-30T02:45:51.1477544+00:00" endTime="2026-10-30T02:45:51.1477545+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="848756e8-6b96-4c2c-9d07-15d705bfb8a3" />
+    <UnitTestResult executionId="a19277cd-6f60-4521-8246-6a7ae15bfc4c" testId="ae88cd84-5101-e537-27f2-43095fde54ed" testName="Scheduler.UnitTests.BookingRulesTests.Timestamp_requires_explicit_offset(text: &quot;invalid&quot;, expected: False)" computerName="73e5a53851ba" duration="00:00:00.0000103" startTime="2026-10-30T02:45:51.1046517+00:00" endTime="2026-10-30T02:45:51.1046517+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a19277cd-6f60-4521-8246-6a7ae15bfc4c" />
+    <UnitTestResult executionId="2c7de2d7-e948-468f-8a23-eb1757d262f3" testId="2a19b6ab-4324-9094-9ab4-e0e3c5395e00" testName="Scheduler.UnitTests.AppointmentTests.ARCH01_Aggregate_rejects_missing_interval" computerName="73e5a53851ba" duration="00:00:00.0004381" startTime="2026-10-30T02:45:51.1484531+00:00" endTime="2026-10-30T02:45:51.1484532+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c7de2d7-e948-468f-8a23-eb1757d262f3" />
+    <UnitTestResult executionId="afe9ec56-ee31-4547-b806-de5c3210d2b5" testId="15732c3e-7aa7-826d-0be6-15b3965031c5" testName="Scheduler.UnitTests.AppointmentTests.Q03_Half_open_overlap_is_symmetric(from: 10, to: 20, expected: True)" computerName="73e5a53851ba" duration="00:00:00.0003049" startTime="2026-10-30T02:45:51.1457778+00:00" endTime="2026-10-30T02:45:51.1457778+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="afe9ec56-ee31-4547-b806-de5c3210d2b5" />
+    <UnitTestResult executionId="fae7c67b-3911-48fd-9a32-4bf99ff3f0a4" testId="3c05d5a4-0b30-98dd-b81b-a805123716bc" testName="Scheduler.UnitTests.AppointmentTests.ARCH01_Interval_rejects_nonpositive_duration(minutes: -1)" computerName="73e5a53851ba" duration="00:00:00.0002554" startTime="2026-10-30T02:45:51.1478649+00:00" endTime="2026-10-30T02:45:51.1478649+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fae7c67b-3911-48fd-9a32-4bf99ff3f0a4" />
+    <UnitTestResult executionId="c04a7027-f720-4847-b02d-dc78a469881f" testId="a6d99342-a345-fdae-997b-20c54f52f06a" testName="Scheduler.UnitTests.AppointmentTests.Q03_Half_open_overlap_is_symmetric(from: 0, to: 60, expected: True)" computerName="73e5a53851ba" duration="00:00:00.0003565" startTime="2026-10-30T02:45:51.1458186+00:00" endTime="2026-10-30T02:45:51.1458186+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c04a7027-f720-4847-b02d-dc78a469881f" />
+    <UnitTestResult executionId="673d349e-d59b-484d-b319-4cfc2145e552" testId="c47d4a1f-a59a-8a73-f139-d665201c4b1a" testName="Scheduler.UnitTests.AppointmentTests.Q03_Half_open_overlap_is_symmetric(from: -60, to: 0, expected: False)" computerName="73e5a53851ba" duration="00:00:00.0000041" startTime="2026-10-30T02:45:51.1458867+00:00" endTime="2026-10-30T02:45:51.1458868+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="673d349e-d59b-484d-b319-4cfc2145e552" />
+    <UnitTestResult executionId="35e26de8-054b-44ae-b6ed-173b3ea15ea3" testId="634a88d0-34db-d4f3-d67f-b0079c4a53e2" testName="Scheduler.UnitTests.BookingRulesTests.Timestamp_requires_explicit_offset(text: &quot;2030-01-02T09:00:00Z&quot;, expected: True)" computerName="73e5a53851ba" duration="00:00:00.0000153" startTime="2026-10-30T02:45:51.1046999+00:00" endTime="2026-10-30T02:45:51.1047000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="35e26de8-054b-44ae-b6ed-173b3ea15ea3" />
+    <UnitTestResult executionId="6d442afb-333f-4a2a-9420-0489e0407792" testId="e8163291-6797-0eda-61a0-0d183406761f" testName="Scheduler.UnitTests.BookingRulesTests.Full_interval_must_fit_dealership_hours(text: &quot;2030-01-02T08:00:00+07:00&quot;, minutes: 540, expected: True)" computerName="73e5a53851ba" duration="00:00:00.0000111" startTime="2026-10-30T02:45:51.1476785+00:00" endTime="2026-10-30T02:45:51.1476785+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d442afb-333f-4a2a-9420-0489e0407792" />
+    <UnitTestResult executionId="bb2cc37a-d8da-440b-8b73-a1578f145100" testId="f2ed0ca3-12d6-fe2f-6edc-df86fef25fcb" testName="Scheduler.UnitTests.AppointmentTests.Q03_Half_open_overlap_is_symmetric(from: -30, to: 30, expected: True)" computerName="73e5a53851ba" duration="00:00:00.0000020" startTime="2026-10-30T02:45:51.1474321+00:00" endTime="2026-10-30T02:45:51.1474322+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb2cc37a-d8da-440b-8b73-a1578f145100" />
+    <UnitTestResult executionId="3ebf9761-6608-4714-9766-1ce43f8c7a10" testId="4fe623a5-ff7b-60a2-a478-1516266428da" testName="Scheduler.UnitTests.BookingRulesTests.Full_interval_must_fit_dealership_hours(text: &quot;2030-01-02T07:59:00+07:00&quot;, minutes: 30, expected: False)" computerName="73e5a53851ba" duration="00:00:00.0000037" startTime="2026-10-30T02:45:51.1477154+00:00" endTime="2026-10-30T02:45:51.1477155+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3ebf9761-6608-4714-9766-1ce43f8c7a10" />
+    <UnitTestResult executionId="85aab259-60a4-4369-a9c6-ee3371f15dcd" testId="1dbe5e09-1c7d-6175-acb6-ce85a57b9f0c" testName="Scheduler.UnitTests.AppointmentTests.ARCH01_Each_association_is_required(emptyIndex: 1)" computerName="73e5a53851ba" duration="00:00:00.0046435" startTime="2026-10-30T02:45:51.1047396+00:00" endTime="2026-10-30T02:45:51.1047396+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="85aab259-60a4-4369-a9c6-ee3371f15dcd" />
+    <UnitTestResult executionId="f1f18be1-d087-4ba8-baca-7ef26e683b3f" testId="c753132d-7d43-f2cd-069d-35f2ba0535e8" testName="Scheduler.UnitTests.AppointmentTests.Q03_Half_open_overlap_is_symmetric(from: 30, to: 90, expected: True)" computerName="73e5a53851ba" duration="00:00:00.0000020" startTime="2026-10-30T02:45:51.1474926+00:00" endTime="2026-10-30T02:45:51.1474927+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f1f18be1-d087-4ba8-baca-7ef26e683b3f" />
+    <UnitTestResult executionId="a94055b4-5a9a-4627-9427-07d756b084b8" testId="c52c9058-d1f2-d95a-383d-848b3ad8e6d7" testName="Scheduler.UnitTests.BookingRulesTests.Full_interval_must_fit_dealership_hours(text: &quot;2030-01-02T16:30:00+07:00&quot;, minutes: 60, expected: False)" computerName="73e5a53851ba" duration="00:00:00.0003909" startTime="2026-10-30T02:45:51.1476334+00:00" endTime="2026-10-30T02:45:51.1476335+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a94055b4-5a9a-4627-9427-07d756b084b8" />
+    <UnitTestResult executionId="98b4a658-e9b9-4f55-835c-f5a2839f96dd" testId="7551fd5a-dd42-bfe9-a577-68abea90ffe9" testName="Scheduler.UnitTests.AppointmentTests.ARCH01_Each_association_is_required(emptyIndex: 5)" computerName="73e5a53851ba" duration="00:00:00.0000260" startTime="2026-10-30T02:45:51.1456996+00:00" endTime="2026-10-30T02:45:51.1456997+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98b4a658-e9b9-4f55-835c-f5a2839f96dd" />
+    <UnitTestResult executionId="8cbe560f-f1e3-4491-8e60-b23cf7e1cdd9" testId="c5797625-3da5-5261-b6d5-c0192607411a" testName="Scheduler.UnitTests.AppointmentTests.ARCH01_Each_association_is_required(emptyIndex: 3)" computerName="73e5a53851ba" duration="00:00:00.0000638" startTime="2026-10-30T02:45:51.1454522+00:00" endTime="2026-10-30T02:45:51.1454523+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8cbe560f-f1e3-4491-8e60-b23cf7e1cdd9" />
+    <UnitTestResult executionId="333518f5-165b-474f-b5cf-186722dd741f" testId="dbd27522-f54a-f314-89b9-c2570f1b4c8c" testName="Scheduler.UnitTests.BookingRulesTests.Full_interval_must_fit_dealership_hours(text: &quot;2030-01-02T16:30:00+07:00&quot;, minutes: 30, expected: True)" computerName="73e5a53851ba" duration="00:00:00.0024399" startTime="2026-10-30T02:45:51.1475812+00:00" endTime="2026-10-30T02:45:51.1475813+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="333518f5-165b-474f-b5cf-186722dd741f" />
+    <UnitTestResult executionId="6c7277cb-c048-4286-945f-9ebf8e3714d6" testId="280a9990-d5dd-d4a4-69c8-ca9d71acce5c" testName="Scheduler.UnitTests.AppointmentTests.ARCH01_Interval_rejects_nonpositive_duration(minutes: 0)" computerName="73e5a53851ba" duration="00:00:00.0003315" startTime="2026-10-30T02:45:51.1483978+00:00" endTime="2026-10-30T02:45:51.1483978+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6c7277cb-c048-4286-945f-9ebf8e3714d6" />
+    <UnitTestResult executionId="59f2657f-ad46-4b89-ba57-17d9d1f5ad1a" testId="3de9b9ab-5c5a-5531-b342-5dbbe00be4dd" testName="Scheduler.UnitTests.AppointmentTests.Q03_Half_open_overlap_is_symmetric(from: 60, to: 120, expected: False)" computerName="73e5a53851ba" duration="00:00:00.0000024" startTime="2026-10-30T02:45:51.1459205+00:00" endTime="2026-10-30T02:45:51.1459206+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="59f2657f-ad46-4b89-ba57-17d9d1f5ad1a" />
+    <UnitTestResult executionId="de0e7498-c8e9-417d-8f24-541c0159db51" testId="e95ac750-9025-3a37-019d-3f18b1fae6ab" testName="Scheduler.UnitTests.AppointmentTests.ARCH01_Each_association_is_required(emptyIndex: 2)" computerName="73e5a53851ba" duration="00:00:00.0000217" startTime="2026-10-30T02:45:51.1457340+00:00" endTime="2026-10-30T02:45:51.1457341+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="de0e7498-c8e9-417d-8f24-541c0159db51" />
+    <UnitTestResult executionId="77614aa0-bba4-4163-9cc5-a1d3d0896d8c" testId="ed8dc212-84ba-a983-62bd-23bb45c0a400" testName="Scheduler.UnitTests.AppointmentTests.ARCH01_Interval_normalizes_offsets_and_compares_by_value" computerName="73e5a53851ba" duration="00:00:00.0129140" startTime="2026-10-30T02:45:51.1026907+00:00" endTime="2026-10-30T02:45:51.1026907+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="77614aa0-bba4-4163-9cc5-a1d3d0896d8c" />
+    <UnitTestResult executionId="2ced11c3-14a9-4ce9-b809-b41aa885e083" testId="92656032-1662-d68f-e218-d450f44f32b2" testName="Scheduler.UnitTests.AppointmentTests.ARCH01_Aggregate_preserves_associations_interval_and_confirmation" computerName="73e5a53851ba" duration="00:00:00.0121376" startTime="2026-10-30T02:45:51.1478227+00:00" endTime="2026-10-30T02:45:51.1478228+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ced11c3-14a9-4ce9-b809-b41aa885e083" />
+    <UnitTestResult executionId="0d3512ba-5ba3-44ae-a02b-8c4519c19e95" testId="083afa67-7ebd-ba1e-06e4-17e2be7c52b3" testName="Scheduler.UnitTests.BookingRulesTests.Timestamp_requires_explicit_offset(text: &quot;2030-01-02T09:00:00&quot;, expected: False)" computerName="73e5a53851ba" duration="00:00:00.0033543" startTime="2026-10-30T02:45:51.1041040+00:00" endTime="2026-10-30T02:45:51.1041041+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0d3512ba-5ba3-44ae-a02b-8c4519c19e95" />
+    <UnitTestResult executionId="1feb4bb5-d7d4-4491-909e-3ec5a4b66558" testId="b4c4c590-da89-c17f-4a11-f5e13056306a" testName="Scheduler.UnitTests.AppointmentTests.Q03_Half_open_overlap_is_symmetric(from: -10, to: 70, expected: True)" computerName="73e5a53851ba" duration="00:00:00.0000112" startTime="2026-10-30T02:45:51.1458517+00:00" endTime="2026-10-30T02:45:51.1458517+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1feb4bb5-d7d4-4491-909e-3ec5a4b66558" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Scheduler.UnitTests.BookingRulesTests.Full_interval_must_fit_dealership_hours(text: &quot;2030-01-02T07:59:00+07:00&quot;, minutes: 30, expected: False)" storage="/src/tests/scheduler.unittests/bin/release/net8.0/scheduler.unittests.dll" id="4fe623a5-ff7b-60a2-a478-1516266428da">
+      <Execution id="3ebf9761-6608-4714-9766-1ce43f8c7a10" />
+      <TestMethod codeBase="/src/tests/Scheduler.UnitTests/bin/Release/net8.0/Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.BookingRulesTests" name="Full_interval_must_fit_dealership_hours" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.AppointmentTests.Q03_Half_open_overlap_is_symmetric(from: -60, to: 0, expected: False)" storage="/src/tests/scheduler.unittests/bin/release/net8.0/scheduler.unittests.dll" id="c47d4a1f-a59a-8a73-f139-d665201c4b1a">
+      <Execution id="673d349e-d59b-484d-b319-4cfc2145e552" />
+      <TestMethod codeBase="/src/tests/Scheduler.UnitTests/bin/Release/net8.0/Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.AppointmentTests" name="Q03_Half_open_overlap_is_symmetric" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.AppointmentTests.ARCH01_Interval_normalizes_offsets_and_compares_by_value" storage="/src/tests/scheduler.unittests/bin/release/net8.0/scheduler.unittests.dll" id="ed8dc212-84ba-a983-62bd-23bb45c0a400">
+      <Execution id="77614aa0-bba4-4163-9cc5-a1d3d0896d8c" />
+      <TestMethod codeBase="/src/tests/Scheduler.UnitTests/bin/Release/net8.0/Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.AppointmentTests" name="ARCH01_Interval_normalizes_offsets_and_compares_by_value" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.AppointmentTests.Q03_Half_open_overlap_is_symmetric(from: 60, to: 120, expected: False)" storage="/src/tests/scheduler.unittests/bin/release/net8.0/scheduler.unittests.dll" id="3de9b9ab-5c5a-5531-b342-5dbbe00be4dd">
+      <Execution id="59f2657f-ad46-4b89-ba57-17d9d1f5ad1a" />
+      <TestMethod codeBase="/src/tests/Scheduler.UnitTests/bin/Release/net8.0/Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.AppointmentTests" name="Q03_Half_open_overlap_is_symmetric" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.AppointmentTests.ARCH01_Each_association_is_required(emptyIndex: 1)" storage="/src/tests/scheduler.unittests/bin/release/net8.0/scheduler.unittests.dll" id="1dbe5e09-1c7d-6175-acb6-ce85a57b9f0c">
+      <Execution id="85aab259-60a4-4369-a9c6-ee3371f15dcd" />
+      <TestMethod codeBase="/src/tests/Scheduler.UnitTests/bin/Release/net8.0/Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.AppointmentTests" name="ARCH01_Each_association_is_required" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.AppointmentTests.ARCH01_Each_association_is_required(emptyIndex: 0)" storage="/src/tests/scheduler.unittests/bin/release/net8.0/scheduler.unittests.dll" id="40850f90-07f0-8f42-d849-c2c6727de2be">
+      <Execution id="4b08c88d-bdc3-4a81-8043-299cf9b6dc0e" />
+      <TestMethod codeBase="/src/tests/Scheduler.UnitTests/bin/Release/net8.0/Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.AppointmentTests" name="ARCH01_Each_association_is_required" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.AppointmentTests.Q03_Half_open_overlap_is_symmetric(from: 0, to: 60, expected: True)" storage="/src/tests/scheduler.unittests/bin/release/net8.0/scheduler.unittests.dll" id="a6d99342-a345-fdae-997b-20c54f52f06a">
+      <Execution id="c04a7027-f720-4847-b02d-dc78a469881f" />
+      <TestMethod codeBase="/src/tests/Scheduler.UnitTests/bin/Release/net8.0/Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.AppointmentTests" name="Q03_Half_open_overlap_is_symmetric" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.BookingRulesTests.Full_interval_must_fit_dealership_hours(text: &quot;2030-01-02T16:30:00+07:00&quot;, minutes: 30, expected: True)" storage="/src/tests/scheduler.unittests/bin/release/net8.0/scheduler.unittests.dll" id="dbd27522-f54a-f314-89b9-c2570f1b4c8c">
+      <Execution id="333518f5-165b-474f-b5cf-186722dd741f" />
+      <TestMethod codeBase="/src/tests/Scheduler.UnitTests/bin/Release/net8.0/Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.BookingRulesTests" name="Full_interval_must_fit_dealership_hours" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.AppointmentTests.Q03_Half_open_overlap_is_symmetric(from: -30, to: 30, expected: True)" storage="/src/tests/scheduler.unittests/bin/release/net8.0/scheduler.unittests.dll" id="f2ed0ca3-12d6-fe2f-6edc-df86fef25fcb">
+      <Execution id="bb2cc37a-d8da-440b-8b73-a1578f145100" />
+      <TestMethod codeBase="/src/tests/Scheduler.UnitTests/bin/Release/net8.0/Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.AppointmentTests" name="Q03_Half_open_overlap_is_symmetric" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.AppointmentTests.ARCH01_Each_association_is_required(emptyIndex: 2)" storage="/src/tests/scheduler.unittests/bin/release/net8.0/scheduler.unittests.dll" id="e95ac750-9025-3a37-019d-3f18b1fae6ab">
+      <Execution id="de0e7498-c8e9-417d-8f24-541c0159db51" />
+      <TestMethod codeBase="/src/tests/Scheduler.UnitTests/bin/Release/net8.0/Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.AppointmentTests" name="ARCH01_Each_association_is_required" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.AppointmentTests.Q03_Half_open_overlap_is_symmetric(from: 10, to: 20, expected: True)" storage="/src/tests/scheduler.unittests/bin/release/net8.0/scheduler.unittests.dll" id="15732c3e-7aa7-826d-0be6-15b3965031c5">
+      <Execution id="afe9ec56-ee31-4547-b806-de5c3210d2b5" />
+      <TestMethod codeBase="/src/tests/Scheduler.UnitTests/bin/Release/net8.0/Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.AppointmentTests" name="Q03_Half_open_overlap_is_symmetric" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.BookingRulesTests.Timestamp_requires_explicit_offset(text: &quot;invalid&quot;, expected: False)" storage="/src/tests/scheduler.unittests/bin/release/net8.0/scheduler.unittests.dll" id="ae88cd84-5101-e537-27f2-43095fde54ed">
+      <Execution id="a19277cd-6f60-4521-8246-6a7ae15bfc4c" />
+      <TestMethod codeBase="/src/tests/Scheduler.UnitTests/bin/Release/net8.0/Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.BookingRulesTests" name="Timestamp_requires_explicit_offset" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.AppointmentTests.ARCH01_Each_association_is_required(emptyIndex: 5)" storage="/src/tests/scheduler.unittests/bin/release/net8.0/scheduler.unittests.dll" id="7551fd5a-dd42-bfe9-a577-68abea90ffe9">
+      <Execution id="98b4a658-e9b9-4f55-835c-f5a2839f96dd" />
+      <TestMethod codeBase="/src/tests/Scheduler.UnitTests/bin/Release/net8.0/Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.AppointmentTests" name="ARCH01_Each_association_is_required" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.AppointmentTests.ARCH01_Aggregate_preserves_associations_interval_and_confirmation" storage="/src/tests/scheduler.unittests/bin/release/net8.0/scheduler.unittests.dll" id="92656032-1662-d68f-e218-d450f44f32b2">
+      <Execution id="2ced11c3-14a9-4ce9-b809-b41aa885e083" />
+      <TestMethod codeBase="/src/tests/Scheduler.UnitTests/bin/Release/net8.0/Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.AppointmentTests" name="ARCH01_Aggregate_preserves_associations_interval_and_confirmation" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.BookingRulesTests.Timestamp_requires_explicit_offset(text: &quot;2030-01-02T09:00:00+07:00&quot;, expected: True)" storage="/src/tests/scheduler.unittests/bin/release/net8.0/scheduler.unittests.dll" id="e0109aa2-503d-ddb8-5fa0-4a795f9f526c">
+      <Execution id="80ccffbf-b6c6-42ee-b980-c34bec49d5ac" />
+      <TestMethod codeBase="/src/tests/Scheduler.UnitTests/bin/Release/net8.0/Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.BookingRulesTests" name="Timestamp_requires_explicit_offset" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.BookingRulesTests.Full_interval_must_fit_dealership_hours(text: &quot;2030-01-02T16:30:00+07:00&quot;, minutes: 60, expected: False)" storage="/src/tests/scheduler.unittests/bin/release/net8.0/scheduler.unittests.dll" id="c52c9058-d1f2-d95a-383d-848b3ad8e6d7">
+      <Execution id="a94055b4-5a9a-4627-9427-07d756b084b8" />
+      <TestMethod codeBase="/src/tests/Scheduler.UnitTests/bin/Release/net8.0/Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.BookingRulesTests" name="Full_interval_must_fit_dealership_hours" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.BookingRulesTests.Timestamp_requires_explicit_offset(text: &quot;2030-01-02T09:00:00&quot;, expected: False)" storage="/src/tests/scheduler.unittests/bin/release/net8.0/scheduler.unittests.dll" id="083afa67-7ebd-ba1e-06e4-17e2be7c52b3">
+      <Execution id="0d3512ba-5ba3-44ae-a02b-8c4519c19e95" />
+      <TestMethod codeBase="/src/tests/Scheduler.UnitTests/bin/Release/net8.0/Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.BookingRulesTests" name="Timestamp_requires_explicit_offset" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.AppointmentTests.ARCH01_Interval_rejects_nonpositive_duration(minutes: -1)" storage="/src/tests/scheduler.unittests/bin/release/net8.0/scheduler.unittests.dll" id="3c05d5a4-0b30-98dd-b81b-a805123716bc">
+      <Execution id="fae7c67b-3911-48fd-9a32-4bf99ff3f0a4" />
+      <TestMethod codeBase="/src/tests/Scheduler.UnitTests/bin/Release/net8.0/Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.AppointmentTests" name="ARCH01_Interval_rejects_nonpositive_duration" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.BookingRulesTests.Full_interval_must_fit_dealership_hours(text: &quot;2030-01-02T08:00:00+07:00&quot;, minutes: 540, expected: True)" storage="/src/tests/scheduler.unittests/bin/release/net8.0/scheduler.unittests.dll" id="e8163291-6797-0eda-61a0-0d183406761f">
+      <Execution id="6d442afb-333f-4a2a-9420-0489e0407792" />
+      <TestMethod codeBase="/src/tests/Scheduler.UnitTests/bin/Release/net8.0/Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.BookingRulesTests" name="Full_interval_must_fit_dealership_hours" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.BookingRulesTests.Equivalent_offsets_normalize_to_same_instant" storage="/src/tests/scheduler.unittests/bin/release/net8.0/scheduler.unittests.dll" id="146954bf-4293-27ec-c0a1-b35b1fde4fc0">
+      <Execution id="36880dca-ed5a-45c5-a02f-386dc1cb0ed5" />
+      <TestMethod codeBase="/src/tests/Scheduler.UnitTests/bin/Release/net8.0/Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.BookingRulesTests" name="Equivalent_offsets_normalize_to_same_instant" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.AppointmentTests.ARCH01_Aggregate_rejects_missing_interval" storage="/src/tests/scheduler.unittests/bin/release/net8.0/scheduler.unittests.dll" id="2a19b6ab-4324-9094-9ab4-e0e3c5395e00">
+      <Execution id="2c7de2d7-e948-468f-8a23-eb1757d262f3" />
+      <TestMethod codeBase="/src/tests/Scheduler.UnitTests/bin/Release/net8.0/Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.AppointmentTests" name="ARCH01_Aggregate_rejects_missing_interval" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.BookingRulesTests.Timestamp_requires_explicit_offset(text: &quot;2030-01-02T09:00:00Z&quot;, expected: True)" storage="/src/tests/scheduler.unittests/bin/release/net8.0/scheduler.unittests.dll" id="634a88d0-34db-d4f3-d67f-b0079c4a53e2">
+      <Execution id="35e26de8-054b-44ae-b6ed-173b3ea15ea3" />
+      <TestMethod codeBase="/src/tests/Scheduler.UnitTests/bin/Release/net8.0/Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.BookingRulesTests" name="Timestamp_requires_explicit_offset" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.BookingRulesTests.Adjacent_intervals_do_not_overlap_but_partial_overlap_does" storage="/src/tests/scheduler.unittests/bin/release/net8.0/scheduler.unittests.dll" id="c8f19b80-5b36-7af3-b8af-3294c50c3180">
+      <Execution id="848756e8-6b96-4c2c-9d07-15d705bfb8a3" />
+      <TestMethod codeBase="/src/tests/Scheduler.UnitTests/bin/Release/net8.0/Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.BookingRulesTests" name="Adjacent_intervals_do_not_overlap_but_partial_overlap_does" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.AppointmentTests.ARCH01_Interval_rejects_nonpositive_duration(minutes: 0)" storage="/src/tests/scheduler.unittests/bin/release/net8.0/scheduler.unittests.dll" id="280a9990-d5dd-d4a4-69c8-ca9d71acce5c">
+      <Execution id="6c7277cb-c048-4286-945f-9ebf8e3714d6" />
+      <TestMethod codeBase="/src/tests/Scheduler.UnitTests/bin/Release/net8.0/Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.AppointmentTests" name="ARCH01_Interval_rejects_nonpositive_duration" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.AppointmentTests.Q03_Half_open_overlap_is_symmetric(from: 30, to: 90, expected: True)" storage="/src/tests/scheduler.unittests/bin/release/net8.0/scheduler.unittests.dll" id="c753132d-7d43-f2cd-069d-35f2ba0535e8">
+      <Execution id="f1f18be1-d087-4ba8-baca-7ef26e683b3f" />
+      <TestMethod codeBase="/src/tests/Scheduler.UnitTests/bin/Release/net8.0/Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.AppointmentTests" name="Q03_Half_open_overlap_is_symmetric" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.AppointmentTests.ARCH01_Each_association_is_required(emptyIndex: 3)" storage="/src/tests/scheduler.unittests/bin/release/net8.0/scheduler.unittests.dll" id="c5797625-3da5-5261-b6d5-c0192607411a">
+      <Execution id="8cbe560f-f1e3-4491-8e60-b23cf7e1cdd9" />
+      <TestMethod codeBase="/src/tests/Scheduler.UnitTests/bin/Release/net8.0/Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.AppointmentTests" name="ARCH01_Each_association_is_required" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.AppointmentTests.Q03_Half_open_overlap_is_symmetric(from: -10, to: 70, expected: True)" storage="/src/tests/scheduler.unittests/bin/release/net8.0/scheduler.unittests.dll" id="b4c4c590-da89-c17f-4a11-f5e13056306a">
+      <Execution id="1feb4bb5-d7d4-4491-909e-3ec5a4b66558" />
+      <TestMethod codeBase="/src/tests/Scheduler.UnitTests/bin/Release/net8.0/Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.AppointmentTests" name="Q03_Half_open_overlap_is_symmetric" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.AppointmentTests.ARCH01_Each_association_is_required(emptyIndex: 4)" storage="/src/tests/scheduler.unittests/bin/release/net8.0/scheduler.unittests.dll" id="037b0ef4-6423-cf8c-b254-8ba4f37b4f25">
+      <Execution id="d9069c61-23df-4a5e-bb1a-133849182a24" />
+      <TestMethod codeBase="/src/tests/Scheduler.UnitTests/bin/Release/net8.0/Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.AppointmentTests" name="ARCH01_Each_association_is_required" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="146954bf-4293-27ec-c0a1-b35b1fde4fc0" executionId="36880dca-ed5a-45c5-a02f-386dc1cb0ed5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="40850f90-07f0-8f42-d849-c2c6727de2be" executionId="4b08c88d-bdc3-4a81-8043-299cf9b6dc0e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0109aa2-503d-ddb8-5fa0-4a795f9f526c" executionId="80ccffbf-b6c6-42ee-b980-c34bec49d5ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="037b0ef4-6423-cf8c-b254-8ba4f37b4f25" executionId="d9069c61-23df-4a5e-bb1a-133849182a24" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c8f19b80-5b36-7af3-b8af-3294c50c3180" executionId="848756e8-6b96-4c2c-9d07-15d705bfb8a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ae88cd84-5101-e537-27f2-43095fde54ed" executionId="a19277cd-6f60-4521-8246-6a7ae15bfc4c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a19b6ab-4324-9094-9ab4-e0e3c5395e00" executionId="2c7de2d7-e948-468f-8a23-eb1757d262f3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="15732c3e-7aa7-826d-0be6-15b3965031c5" executionId="afe9ec56-ee31-4547-b806-de5c3210d2b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c05d5a4-0b30-98dd-b81b-a805123716bc" executionId="fae7c67b-3911-48fd-9a32-4bf99ff3f0a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a6d99342-a345-fdae-997b-20c54f52f06a" executionId="c04a7027-f720-4847-b02d-dc78a469881f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c47d4a1f-a59a-8a73-f139-d665201c4b1a" executionId="673d349e-d59b-484d-b319-4cfc2145e552" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="634a88d0-34db-d4f3-d67f-b0079c4a53e2" executionId="35e26de8-054b-44ae-b6ed-173b3ea15ea3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e8163291-6797-0eda-61a0-0d183406761f" executionId="6d442afb-333f-4a2a-9420-0489e0407792" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f2ed0ca3-12d6-fe2f-6edc-df86fef25fcb" executionId="bb2cc37a-d8da-440b-8b73-a1578f145100" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4fe623a5-ff7b-60a2-a478-1516266428da" executionId="3ebf9761-6608-4714-9766-1ce43f8c7a10" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1dbe5e09-1c7d-6175-acb6-ce85a57b9f0c" executionId="85aab259-60a4-4369-a9c6-ee3371f15dcd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c753132d-7d43-f2cd-069d-35f2ba0535e8" executionId="f1f18be1-d087-4ba8-baca-7ef26e683b3f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c52c9058-d1f2-d95a-383d-848b3ad8e6d7" executionId="a94055b4-5a9a-4627-9427-07d756b084b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7551fd5a-dd42-bfe9-a577-68abea90ffe9" executionId="98b4a658-e9b9-4f55-835c-f5a2839f96dd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c5797625-3da5-5261-b6d5-c0192607411a" executionId="8cbe560f-f1e3-4491-8e60-b23cf7e1cdd9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dbd27522-f54a-f314-89b9-c2570f1b4c8c" executionId="333518f5-165b-474f-b5cf-186722dd741f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="280a9990-d5dd-d4a4-69c8-ca9d71acce5c" executionId="6c7277cb-c048-4286-945f-9ebf8e3714d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3de9b9ab-5c5a-5531-b342-5dbbe00be4dd" executionId="59f2657f-ad46-4b89-ba57-17d9d1f5ad1a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e95ac750-9025-3a37-019d-3f18b1fae6ab" executionId="de0e7498-c8e9-417d-8f24-541c0159db51" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed8dc212-84ba-a983-62bd-23bb45c0a400" executionId="77614aa0-bba4-4163-9cc5-a1d3d0896d8c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="92656032-1662-d68f-e218-d450f44f32b2" executionId="2ced11c3-14a9-4ce9-b809-b41aa885e083" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="083afa67-7ebd-ba1e-06e4-17e2be7c52b3" executionId="0d3512ba-5ba3-44ae-a02b-8c4519c19e95" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b4c4c590-da89-c17f-4a11-f5e13056306a" executionId="1feb4bb5-d7d4-4491-909e-3ec5a4b66558" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="28" executed="28" passed="28" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 8.0.14)
+[xUnit.net 00:00:00.08]   Discovering: Scheduler.UnitTests
+[xUnit.net 00:00:00.14]   Discovered:  Scheduler.UnitTests
+[xUnit.net 00:00:00.14]   Starting:    Scheduler.UnitTests
+[xUnit.net 00:00:00.26]   Finished:    Scheduler.UnitTests
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

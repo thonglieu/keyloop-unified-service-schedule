@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="a9901c10-6967-4410-95e1-021c010b26a1" name="X1@THONG-LIEU 2026-10-27 14:29:11" runUser="THONG-LIEU\CodexSandboxOffline" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-27T14:29:11.1857853+07:00" queuing="2026-10-27T14:29:11.1857856+07:00" start="2026-10-27T14:29:06.7918060+07:00" finish="2026-10-27T14:29:11.2314986+07:00" />
+  <TestSettings name="default" id="4ae67899-81a7-4b61-863f-4f7c60930375">
+    <Deployment runDeploymentRoot="X1_THONG-LIEU_2026-10-27_14_29_11" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="f5686485-2649-4d11-b4bb-fcf7d57ef8d7" testId="146954bf-4293-27ec-c0a1-b35b1fde4fc0" testName="Scheduler.UnitTests.BookingRulesTests.Equivalent_offsets_normalize_to_same_instant" computerName="THONG-LIEU" duration="00:00:00.3004940" startTime="2026-10-27T14:29:11.0721017+07:00" endTime="2026-10-27T14:29:11.0721394+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f5686485-2649-4d11-b4bb-fcf7d57ef8d7" />
+    <UnitTestResult executionId="aae1cf5d-78a0-4bab-9e4d-d66994e5b6a7" testId="e8163291-6797-0eda-61a0-0d183406761f" testName="Scheduler.UnitTests.BookingRulesTests.Full_interval_must_fit_dealership_hours(text: &quot;2030-01-02T08:00:00+07:00&quot;, minutes: 540, expected: True)" computerName="THONG-LIEU" duration="00:00:00.0000343" startTime="2026-10-27T14:29:11.0850675+07:00" endTime="2026-10-27T14:29:11.0850676+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aae1cf5d-78a0-4bab-9e4d-d66994e5b6a7" />
+    <UnitTestResult executionId="0dbfe6cb-90cb-4908-8fa9-3fec0e8636e7" testId="e0109aa2-503d-ddb8-5fa0-4a795f9f526c" testName="Scheduler.UnitTests.BookingRulesTests.Timestamp_requires_explicit_offset(text: &quot;2030-01-02T09:00:00+07:00&quot;, expected: True)" computerName="THONG-LIEU" duration="00:00:00.0005363" startTime="2026-10-27T14:29:11.0785240+07:00" endTime="2026-10-27T14:29:11.0785243+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0dbfe6cb-90cb-4908-8fa9-3fec0e8636e7" />
+    <UnitTestResult executionId="06b762d0-1613-4634-9143-e1fefa21b21a" testId="634a88d0-34db-d4f3-d67f-b0079c4a53e2" testName="Scheduler.UnitTests.BookingRulesTests.Timestamp_requires_explicit_offset(text: &quot;2030-01-02T09:00:00Z&quot;, expected: True)" computerName="THONG-LIEU" duration="00:00:00.0000284" startTime="2026-10-27T14:29:11.0787376+07:00" endTime="2026-10-27T14:29:11.0787377+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06b762d0-1613-4634-9143-e1fefa21b21a" />
+    <UnitTestResult executionId="8a2b0069-79ad-4944-bfeb-9955990ec477" testId="083afa67-7ebd-ba1e-06e4-17e2be7c52b3" testName="Scheduler.UnitTests.BookingRulesTests.Timestamp_requires_explicit_offset(text: &quot;2030-01-02T09:00:00&quot;, expected: False)" computerName="THONG-LIEU" duration="00:00:00.0039956" startTime="2026-10-27T14:29:11.0777831+07:00" endTime="2026-10-27T14:29:11.0777833+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a2b0069-79ad-4944-bfeb-9955990ec477" />
+    <UnitTestResult executionId="87b39ecc-1bf6-440c-bef2-b901e1aa80f4" testId="c8f19b80-5b36-7af3-b8af-3294c50c3180" testName="Scheduler.UnitTests.BookingRulesTests.Adjacent_intervals_do_not_overlap_but_partial_overlap_does" computerName="THONG-LIEU" duration="00:00:00.0008214" startTime="2026-10-27T14:29:11.1316775+07:00" endTime="2026-10-27T14:29:11.1316777+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87b39ecc-1bf6-440c-bef2-b901e1aa80f4" />
+    <UnitTestResult executionId="6c348a80-71ea-4ccd-a540-e809a7fd30d1" testId="4fe623a5-ff7b-60a2-a478-1516266428da" testName="Scheduler.UnitTests.BookingRulesTests.Full_interval_must_fit_dealership_hours(text: &quot;2030-01-02T07:59:00+07:00&quot;, minutes: 30, expected: False)" computerName="THONG-LIEU" duration="00:00:00.0000208" startTime="2026-10-27T14:29:11.0851633+07:00" endTime="2026-10-27T14:29:11.0851634+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6c348a80-71ea-4ccd-a540-e809a7fd30d1" />
+    <UnitTestResult executionId="7065c07c-7fa9-484b-b019-9e221439a4d9" testId="ae88cd84-5101-e537-27f2-43095fde54ed" testName="Scheduler.UnitTests.BookingRulesTests.Timestamp_requires_explicit_offset(text: &quot;invalid&quot;, expected: False)" computerName="THONG-LIEU" duration="00:00:00.0000190" startTime="2026-10-27T14:29:11.0786231+07:00" endTime="2026-10-27T14:29:11.0786232+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7065c07c-7fa9-484b-b019-9e221439a4d9" />
+    <UnitTestResult executionId="d63bee4f-4119-4f69-bb17-110c2df4d0d0" testId="dbd27522-f54a-f314-89b9-c2570f1b4c8c" testName="Scheduler.UnitTests.BookingRulesTests.Full_interval_must_fit_dealership_hours(text: &quot;2030-01-02T16:30:00+07:00&quot;, minutes: 30, expected: True)" computerName="THONG-LIEU" duration="00:00:00.0078765" startTime="2026-10-27T14:29:11.0843318+07:00" endTime="2026-10-27T14:29:11.0843319+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d63bee4f-4119-4f69-bb17-110c2df4d0d0" />
+    <UnitTestResult executionId="1fc6daa8-c49b-4d16-bb04-a6aebd9f3931" testId="c52c9058-d1f2-d95a-383d-848b3ad8e6d7" testName="Scheduler.UnitTests.BookingRulesTests.Full_interval_must_fit_dealership_hours(text: &quot;2030-01-02T16:30:00+07:00&quot;, minutes: 60, expected: False)" computerName="THONG-LIEU" duration="00:00:00.0005116" startTime="2026-10-27T14:29:11.0849670+07:00" endTime="2026-10-27T14:29:11.0849672+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1fc6daa8-c49b-4d16-bb04-a6aebd9f3931" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Scheduler.UnitTests.BookingRulesTests.Timestamp_requires_explicit_offset(text: &quot;2030-01-02T09:00:00+07:00&quot;, expected: True)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.unittests\bin\debug\net8.0\scheduler.unittests.dll" id="e0109aa2-503d-ddb8-5fa0-4a795f9f526c">
+      <Execution id="0dbfe6cb-90cb-4908-8fa9-3fec0e8636e7" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.UnitTests\bin\Debug\net8.0\Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.BookingRulesTests" name="Timestamp_requires_explicit_offset" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.BookingRulesTests.Timestamp_requires_explicit_offset(text: &quot;2030-01-02T09:00:00&quot;, expected: False)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.unittests\bin\debug\net8.0\scheduler.unittests.dll" id="083afa67-7ebd-ba1e-06e4-17e2be7c52b3">
+      <Execution id="8a2b0069-79ad-4944-bfeb-9955990ec477" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.UnitTests\bin\Debug\net8.0\Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.BookingRulesTests" name="Timestamp_requires_explicit_offset" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.BookingRulesTests.Full_interval_must_fit_dealership_hours(text: &quot;2030-01-02T16:30:00+07:00&quot;, minutes: 60, expected: False)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.unittests\bin\debug\net8.0\scheduler.unittests.dll" id="c52c9058-d1f2-d95a-383d-848b3ad8e6d7">
+      <Execution id="1fc6daa8-c49b-4d16-bb04-a6aebd9f3931" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.UnitTests\bin\Debug\net8.0\Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.BookingRulesTests" name="Full_interval_must_fit_dealership_hours" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.BookingRulesTests.Adjacent_intervals_do_not_overlap_but_partial_overlap_does" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.unittests\bin\debug\net8.0\scheduler.unittests.dll" id="c8f19b80-5b36-7af3-b8af-3294c50c3180">
+      <Execution id="87b39ecc-1bf6-440c-bef2-b901e1aa80f4" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.UnitTests\bin\Debug\net8.0\Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.BookingRulesTests" name="Adjacent_intervals_do_not_overlap_but_partial_overlap_does" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.BookingRulesTests.Full_interval_must_fit_dealership_hours(text: &quot;2030-01-02T07:59:00+07:00&quot;, minutes: 30, expected: False)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.unittests\bin\debug\net8.0\scheduler.unittests.dll" id="4fe623a5-ff7b-60a2-a478-1516266428da">
+      <Execution id="6c348a80-71ea-4ccd-a540-e809a7fd30d1" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.UnitTests\bin\Debug\net8.0\Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.BookingRulesTests" name="Full_interval_must_fit_dealership_hours" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.BookingRulesTests.Timestamp_requires_explicit_offset(text: &quot;2030-01-02T09:00:00Z&quot;, expected: True)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.unittests\bin\debug\net8.0\scheduler.unittests.dll" id="634a88d0-34db-d4f3-d67f-b0079c4a53e2">
+      <Execution id="06b762d0-1613-4634-9143-e1fefa21b21a" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.UnitTests\bin\Debug\net8.0\Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.BookingRulesTests" name="Timestamp_requires_explicit_offset" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.BookingRulesTests.Timestamp_requires_explicit_offset(text: &quot;invalid&quot;, expected: False)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.unittests\bin\debug\net8.0\scheduler.unittests.dll" id="ae88cd84-5101-e537-27f2-43095fde54ed">
+      <Execution id="7065c07c-7fa9-484b-b019-9e221439a4d9" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.UnitTests\bin\Debug\net8.0\Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.BookingRulesTests" name="Timestamp_requires_explicit_offset" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.BookingRulesTests.Full_interval_must_fit_dealership_hours(text: &quot;2030-01-02T08:00:00+07:00&quot;, minutes: 540, expected: True)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.unittests\bin\debug\net8.0\scheduler.unittests.dll" id="e8163291-6797-0eda-61a0-0d183406761f">
+      <Execution id="aae1cf5d-78a0-4bab-9e4d-d66994e5b6a7" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.UnitTests\bin\Debug\net8.0\Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.BookingRulesTests" name="Full_interval_must_fit_dealership_hours" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.BookingRulesTests.Full_interval_must_fit_dealership_hours(text: &quot;2030-01-02T16:30:00+07:00&quot;, minutes: 30, expected: True)" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.unittests\bin\debug\net8.0\scheduler.unittests.dll" id="dbd27522-f54a-f314-89b9-c2570f1b4c8c">
+      <Execution id="d63bee4f-4119-4f69-bb17-110c2df4d0d0" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.UnitTests\bin\Debug\net8.0\Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.BookingRulesTests" name="Full_interval_must_fit_dealership_hours" />
+    </UnitTest>
+    <UnitTest name="Scheduler.UnitTests.BookingRulesTests.Equivalent_offsets_normalize_to_same_instant" storage="d:\1. source\keyloop\unified_service_schedule\tests\scheduler.unittests\bin\debug\net8.0\scheduler.unittests.dll" id="146954bf-4293-27ec-c0a1-b35b1fde4fc0">
+      <Execution id="f5686485-2649-4d11-b4bb-fcf7d57ef8d7" />
+      <TestMethod codeBase="D:\1. SOURCE\Keyloop\unified_service_schedule\tests\Scheduler.UnitTests\bin\Debug\net8.0\Scheduler.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Scheduler.UnitTests.BookingRulesTests" name="Equivalent_offsets_normalize_to_same_instant" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="146954bf-4293-27ec-c0a1-b35b1fde4fc0" executionId="f5686485-2649-4d11-b4bb-fcf7d57ef8d7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e8163291-6797-0eda-61a0-0d183406761f" executionId="aae1cf5d-78a0-4bab-9e4d-d66994e5b6a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0109aa2-503d-ddb8-5fa0-4a795f9f526c" executionId="0dbfe6cb-90cb-4908-8fa9-3fec0e8636e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="634a88d0-34db-d4f3-d67f-b0079c4a53e2" executionId="06b762d0-1613-4634-9143-e1fefa21b21a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="083afa67-7ebd-ba1e-06e4-17e2be7c52b3" executionId="8a2b0069-79ad-4944-bfeb-9955990ec477" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c8f19b80-5b36-7af3-b8af-3294c50c3180" executionId="87b39ecc-1bf6-440c-bef2-b901e1aa80f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4fe623a5-ff7b-60a2-a478-1516266428da" executionId="6c348a80-71ea-4ccd-a540-e809a7fd30d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ae88cd84-5101-e537-27f2-43095fde54ed" executionId="7065c07c-7fa9-484b-b019-9e221439a4d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dbd27522-f54a-f314-89b9-c2570f1b4c8c" executionId="d63bee4f-4119-4f69-bb17-110c2df4d0d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c52c9058-d1f2-d95a-383d-848b3ad8e6d7" executionId="1fc6daa8-c49b-4d16-bb04-a6aebd9f3931" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="10" executed="10" passed="10" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 8.0.31)&#xD;
+[xUnit.net 00:00:00.82]   Discovering: Scheduler.UnitTests&#xD;
+[xUnit.net 00:00:00.91]   Discovered:  Scheduler.UnitTests&#xD;
+[xUnit.net 00:00:00.92]   Starting:    Scheduler.UnitTests&#xD;
+[xUnit.net 00:00:01.35]   Finished:    Scheduler.UnitTests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

@@ -1,0 +1,33 @@
+# Standalone reviewer tests: no demo services, host ports or persistent database volume.
+name: keyloop-scheduler-tests
+
+services:
+  test-db:
+    image: postgres:17.2
+    environment:
+      POSTGRES_USER: scheduler_test
+      # Public, disposable test-only credential; never use for application data.
+      POSTGRES_PASSWORD: scheduler_test_only
+      POSTGRES_DB: keyloop_scheduler_test_compose
+    tmpfs:
+      - /var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -U scheduler_test -d keyloop_scheduler_test_compose"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+
+  tests:
+    build:
+      context: .
+      dockerfile: Dockerfile.tests
+    # Retain TestDatabase's localhost-only guard without exposing PostgreSQL to the host.
+    network_mode: "service:test-db"
+    environment:
+      ConnectionStrings__SchedulerTestDb: Host=127.0.0.1;Port=5432;Database=keyloop_scheduler_test_compose;Username=scheduler_test;Password=scheduler_test_only;Include Error Detail=false
+      SchedulerTests__PostgresPort: "5432"
+    depends_on:
+      test-db:
+        condition: service_healthy
+    volumes:
+      - ./artifacts/reviewer-compose-tests:/test-results

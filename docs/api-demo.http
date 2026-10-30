@@ -1,0 +1,63 @@
+### Configure these variables locally; never commit a real bearer token.
+@baseUrl = http://localhost:5080
+@accessToken = REPLACE_LOCALLY_WITH_DEMO_OR_EXTERNAL_ACCESS_TOKEN
+@customerId = REPLACE_WITH_CUSTOMER_GUID
+@vehicleId = REPLACE_WITH_OWNED_VEHICLE_GUID
+@dealershipId = REPLACE_WITH_DEALERSHIP_GUID
+@serviceTypeId = REPLACE_WITH_SERVICE_GUID
+@startsAt = REPLACE_WITH_FUTURE_OFFSET_TIMESTAMP
+@appointmentId = REPLACE_WITH_CREATED_APPOINTMENT_GUID
+
+### Local reviewer accounts (explicit Development reviewer mode only)
+# Copy an accounts[].accessToken into accessToken above. Tokens expire after 1 hour.
+POST {{baseUrl}}/api/demo/auth
+
+### Anonymous liveness
+GET {{baseUrl}}/health/live
+
+### Anonymous readiness (503 while DB/schema unavailable)
+GET {{baseUrl}}/health/ready
+
+### Authenticated shared lookup
+GET {{baseUrl}}/api/dealerships
+Authorization: Bearer {{accessToken}}
+
+### Authenticated service durations
+GET {{baseUrl}}/api/service-types
+Authorization: Bearer {{accessToken}}
+
+### Admin only; also requires Development and Demo.Enabled
+GET {{baseUrl}}/api/demo/fixtures
+Authorization: Bearer {{accessToken}}
+
+### Customer: own collection only; Admin: selected customer's collection
+GET {{baseUrl}}/api/customers/{{customerId}}/vehicles
+Authorization: Bearer {{accessToken}}
+
+### Advisory only. URL-encode '+' as '%2B' when using a numeric timestamp offset.
+GET {{baseUrl}}/api/availability?dealershipId={{dealershipId}}&serviceTypeId={{serviceTypeId}}&startsAt={{startsAt}}
+Authorization: Bearer {{accessToken}}
+
+### Book: expect 201 + Location, or 409 if capacity was consumed
+POST {{baseUrl}}/api/appointments
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{
+  "customerId": "{{customerId}}",
+  "vehicleId": "{{vehicleId}}",
+  "dealershipId": "{{dealershipId}}",
+  "serviceTypeId": "{{serviceTypeId}}",
+  "startsAt": "{{startsAt}}"
+}
+
+### Persisted readback; use response ID or Location, including after restarting API
+GET {{baseUrl}}/api/appointments/{{appointmentId}}
+Authorization: Bearer {{accessToken}}
+
+### Filter is required; Customers may select only their mapped ID
+GET {{baseUrl}}/api/appointments?customerId={{customerId}}
+Authorization: Bearer {{accessToken}}
+
+### Missing identity: expect 401 and WWW-Authenticate: Bearer
+GET {{baseUrl}}/api/dealerships
