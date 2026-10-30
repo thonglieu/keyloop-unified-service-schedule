@@ -1,3 +1,7 @@
+## Technical Presentation Video
+
+[Google Drive](https://drive.google.com/file/d/11dCzOBGClzezxzYHgc6eFLdTcTM-HKIw/view?usp=sharing)
+
 # Unified Service Scheduler — reviewer guide
 
 **Scenario A, Part 2: backend implementation.** The API confirms an appointment
